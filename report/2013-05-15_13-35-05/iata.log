@@ -1,0 +1,2 @@
+2013-05-15 13:35:37,738 [Forwarding getElementText on session 24909f4059cf33b9b4bcf06692ad086f to remote] INFO  org.apache.http.impl.client.DefaultHttpClient - I/O exception (java.net.SocketException) caught when processing request: Connection reset
+2013-05-15 13:35:37,738 [Forwarding getElementText on session 24909f4059cf33b9b4bcf06692ad086f to remote] INFO  org.apache.http.impl.client.DefaultHttpClient - Retrying request

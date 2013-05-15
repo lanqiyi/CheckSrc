@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="26531" started-at="2013-05-14T18:45:10Z" finished-at="2013-05-14T18:45:37Z">
+    <groups>
+    </groups>
+    <test name="Default" duration-ms="26531" started-at="2013-05-14T18:45:10Z" finished-at="2013-05-14T18:45:37Z">
+      <class name="com.anjukeinc.iata.ui.init.Init">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.anjukeinc.iata.ui.init.Init@120cc56]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2013-05-14T18:45:10Z" finished-at="2013-05-14T18:45:10Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="FAIL" signature="afterSuite(java.lang.String, java.lang.String)[pri:0, instance:com.anjukeinc.iata.ui.init.Init@120cc56]" name="afterSuite" is-config="true" duration-ms="0" started-at="2013-05-14T18:45:37Z" finished-at="2013-05-14T18:45:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anjuke]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[--Check Resource--]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.StringIndexOutOfBoundsException">
+            <message>
+              <![CDATA[String index out of range: -2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.substring(Unknown Source)
+	at com.anjukeinc.iata.ui.report.ReadFile.getCaseNameLong(ReadFile.java:120)
+	at com.anjukeinc.iata.ui.report.ReadFile.readFileByLines(ReadFile.java:63)
+	at com.anjukeinc.iata.ui.report.DefaultReoprt.customReport(DefaultReoprt.java:65)
+	at com.anjukeinc.iata.ui.report.ReportDirector.getReport(ReportDirector.java:16)
+	at com.anjukeinc.iata.ui.init.Init.afterSuite(Init.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:551)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:87)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.StringIndexOutOfBoundsException -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.anjukeinc.iata.ui.init.Init -->
+      <class name="com.anjuke.minzhao.app.CheckSrc.CheckResource">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.anjuke.minzhao.app.CheckSrc.CheckResource@12d3205]" name="setUp" is-config="true" duration-ms="10859" started-at="2013-05-14T18:45:10Z" finished-at="2013-05-14T18:45:21Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCheckResources()[pri:0, instance:com.anjuke.minzhao.app.CheckSrc.CheckResource@12d3205]" name="testCheckResources" duration-ms="15328" started-at="2013-05-14T18:45:21Z" finished-at="2013-05-14T18:45:37Z">
+        </test-method> <!-- testCheckResources -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.anjuke.minzhao.app.CheckSrc.CheckResource@12d3205]" name="tearDown" is-config="true" duration-ms="329" started-at="2013-05-14T18:45:37Z" finished-at="2013-05-14T18:45:37Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.anjuke.minzhao.app.CheckSrc.CheckResource -->
+    </test> <!-- Default -->
+  </suite> <!-- suite -->
+</testng-results>

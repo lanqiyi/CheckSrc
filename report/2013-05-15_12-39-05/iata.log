@@ -1,0 +1,1579 @@
+2013-05-15 12:39:25,182 [main] INFO  **com.anjuke.minzhao.app.CheckSrc.CheckResource Method: testCheckResources Line:66 - com.anjuke.minzhao.app.CheckSrc.CheckResource.testCheckResources^^operater: Get url||url:view-source:http://shanghai.anjuke.com/community/view/1||Done||null##
+2013-05-15 12:39:32,689 [main] INFO  **com.anjuke.minzhao.app.CheckSrc.CheckResource Method: testCheckResources Line:67 - com.anjuke.minzhao.app.CheckSrc.CheckResource.testCheckResources^^operater: Element getText()||Element getText  locatorType:null locator:html value:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META NAME="format-detection" CONTENT="telephone=no" />
+<meta name="keywords" content="上海 莲园路488弄,莲园路488弄二手房,莲园路488弄租房,莲园路488弄" />
+<meta name="description" content="上海 莲园路488弄，5月平均房价21733元/平米，共套二手房源，莲园路488弄。找最新莲园路488弄实景图、房型图、二手房、租房房源信息、交通配套及用户点评来安居客" />
+<title>莲园路488弄，莲园路488弄-上海莲园路488弄二手房-上海安居客</title>
+  
+<link rel="stylesheet" rev="stylesheet" href="http://include.anjukestatic.com/anjuke/res/h/25f629d32f58b905b73609d4f2e94db7.css" type="text/css" />
+<script type="text/javascript" src="http://include.anjukestatic.com/anjuke/res/h/ffce2c6f78a3c96457da3e2a0e2f904e.js"></script>
+<script type="text/javascript" src="http://s.anjuke.com/bb.js"></script>
+
+<link rel="icon" href="http://pages.anjukestatic.com/favicon.ico" type="image/ico" />
+<link rel="shortcut icon" href="http://pages.anjukestatic.com/favicon.ico" />
+
+
+<!-- INIT START -->
+<script type="text/javascript">
+var guidEx = false;
+var pageReferer = document.referrer;
+var ajkGuid = APF.Utils.getCookie('aQQ_ajkguid');
+if(pageReferer.indexOf('anjuke.com') != -1 && !ajkGuid){
+    guidEx = true;
+}
+var anjuke_web_global_InitTracker=function(city_id,city_cookie_name,guid_cookie_name,base_domain,cookie_path){
+    var expire=365*5;
+        this.setCookie('isp', 'true', expire, cookie_path, base_domain);
+};anjuke_web_global_InitTracker.prototype.createGuid=function(){
+    return(this.S4()+this.S4()+"-"+this.S4()+"-"+this.S4()+"-"+this.S4()+"-"+this.S4()+this.S4()+this.S4());
+};anjuke_web_global_InitTracker.prototype.S4=function(){
+    return(((1+Math.random())*0x10000)|0).toString(16).substring(1).toUpperCase();
+};anjuke_web_global_InitTracker.prototype.getCookie=function(check_name){
+    var a_all_cookies=document.cookie.split(';');var a_temp_cookie='';var cookie_name='';var cookie_value='';var b_cookie_found=false;for(i=0;i<a_all_cookies.length;i++){
+        a_temp_cookie=a_all_cookies[i].split('=');cookie_name=a_temp_cookie[0].replace(/^\s+|\s+$/g,'');if(cookie_name==check_name){
+            b_cookie_found=true;if(a_temp_cookie.length>1){
+                cookie_value=unescape(a_temp_cookie[1].replace(/^\s+|\s+$/g,''));
+            }
+            return cookie_value;break;
+        }
+        a_temp_cookie=null;cookie_name='';
+    }
+    if(!b_cookie_found){
+        return null;
+    }
+};anjuke_web_global_InitTracker.prototype.setCookie=function(name,value,expires,path,domain,secure){
+    var today=new Date();today.setTime(today.getTime());if(expires){
+        expires=expires*1000*60*60*24;
+    }
+    var expires_date=new Date(today.getTime()+(expires));document.cookie=name+"="+escape(value)+
+    ((expires)?";expires="+expires_date.toGMTString():"")+
+    ((path)?";path="+path:"")+
+    ((domain)?";domain="+domain:"")+
+    ((secure)?";secure":"");
+};
+new anjuke_web_global_InitTracker('11','ctid','aQQ_ajkguid','anjuke.com','/');
+var lp=APF.Utils.getCookie('lp');
+if(null==lp){
+    var tDay = new Date();
+    var tHour = tDay.getHours() + tDay.getMinutes()/60 + tDay.getSeconds()/3600;
+    var expiresDay = 24 - tHour > 0 ? (24 - tHour) / 24 : 1;
+    if(document.referrer){
+        referrer='1';
+    }else{
+        referrer='0';
+    }
+    APF.Utils.setCookie('lp','Community_CommunityViewNewPage|'+referrer,expiresDay,'/','anjuke.com');
+}
+</script>
+<!-- INIT END -->
+
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div class="top-poster">
+ <div id="IFX_p" style="position:relative;"></div>
+</div>
+<div class="top-poster">
+    <div id="IFX_p" style="position:relative;"></div>
+</div>
+<div class="top-nav">
+    <div class="site-nav">
+            <strong>安居客旗下网站：</strong>
+  <a href="http://shanghai.anjuke.com" _soj="HeaderTop" title="安居客上海房产网">安居客</a>
+        <a href="http://shanghai.haozu.com" _soj="HeaderTop" title="租房" target="_blank">好租</a>         <a href="http://shanghai.jinpu.com" _soj="HeaderTop" title="商业地产" target="_blank">金铺</a>         </div>
+ <!-- 未登录状态 Start -->
+<ul class="login-info" id="ajax_nologin_box_id">
+ <li class="welcome">
+  您好，<a href="http://my.anjuke.com/my/login?history=aHR0cDovL3NoYW5naGFpLmFuanVrZS5jb20vY29tbXVuaXR5L3ZpZXcvMQ==" _soj="HeaderTop">请登录</a><a href="http://my.anjuke.com/register" _soj="HeaderTop" class="register">注册</a>
+ </li>
+ <li class="broker">
+  <a href="http://agent.anjuke.com/login/" _soj="HeaderTop">中国网络经纪人</a>
+ </li>
+ <li class="passport">
+ <a href="http://vip.aifang.com" _soj="HeaderTop">房易通</a>
+ </li>
+</ul>
+<!-- 未登录状态 End -->
+
+</div>
+<div class="header_content clearfix">
+ <div class="header_logo"><a href="http://shanghai.anjuke.com" title="安居客上海房产网">安居客上海房产网</a></div>
+ <div class="header_city">
+      <div class="cur_city">
+        <a href="http://www.anjuke.com/index/#location" id="switch_apf_id_7" class="select_icon"><span class="city">上海</span><span class="city_icon">选择城市</span></a>
+        <div id="city-panel" class="city_panel" style="display:none">
+         <iframe frameborder="0" scrolling="no"></iframe>
+                  <dl>
+             <dt>华北东北</dt>
+                <dd>
+                                  <a href="http://beijing.anjuke.com" rel="nofollow">北京</a>
+                                  <a href="http://tianjin.anjuke.com" rel="nofollow">天津</a>
+                                  <a href="http://dalian.anjuke.com" rel="nofollow">大连</a>
+                                  <a href="http://sjz.anjuke.com" rel="nofollow">石家庄</a>
+                                  <a href="http://heb.anjuke.com" rel="nofollow">哈尔滨</a>
+                                  <a href="http://sy.anjuke.com" rel="nofollow">沈阳</a>
+                                  <a href="http://ty.anjuke.com" rel="nofollow">太原</a>
+                                  <a href="http://cc.anjuke.com" rel="nofollow">长春</a>
+                                 </dd>
+            </dl>
+                     <dl>
+             <dt>华东地区</dt>
+                <dd>
+                                  <a href="http://shanghai.anjuke.com" rel="nofollow">上海</a>
+                                  <a href="http://hangzhou.anjuke.com" rel="nofollow">杭州</a>
+                                  <a href="http://suzhou.anjuke.com" rel="nofollow">苏州</a>
+                                  <a href="http://nanjing.anjuke.com" rel="nofollow">南京</a>
+                                  <a href="http://wuxi.anjuke.com" rel="nofollow">无锡</a>
+                                  <a href="http://jinan.anjuke.com" rel="nofollow">济南</a>
+                                  <a href="http://qd.anjuke.com" rel="nofollow">青岛</a>
+                                  <a href="http://ks.anjuke.com" rel="nofollow">昆山</a>
+                                  <a href="http://nb.anjuke.com" rel="nofollow">宁波</a>
+                                  <a href="http://nc.anjuke.com" rel="nofollow">南昌</a>
+                                  <a href="http://fz.anjuke.com" rel="nofollow">福州</a>
+                                  <a href="http://hf.anjuke.com" rel="nofollow">合肥</a>
+                                 </dd>
+            </dl>
+                     <dl>
+             <dt>华南地区</dt>
+                <dd>
+                                  <a href="http://shenzhen.anjuke.com" rel="nofollow">深圳</a>
+                                  <a href="http://guangzhou.anjuke.com" rel="nofollow">广州</a>
+                                  <a href="http://foshan.anjuke.com" rel="nofollow">佛山</a>
+                                  <a href="http://cs.anjuke.com" rel="nofollow">长沙</a>
+                                  <a href="http://sanya.anjuke.com" rel="nofollow">三亚</a>
+                                  <a href="http://huizhou.anjuke.com" rel="nofollow">惠州</a>
+                                  <a href="http://dg.anjuke.com" rel="nofollow">东莞</a>
+                                  <a href="http://haikou.anjuke.com" rel="nofollow">海口</a>
+                                  <a href="http://zh.anjuke.com" rel="nofollow">珠海</a>
+                                  <a href="http://zs.anjuke.com" rel="nofollow">中山</a>
+                                  <a href="http://xm.anjuke.com" rel="nofollow">厦门</a>
+                                 </dd>
+            </dl>
+                     <dl>
+             <dt>中 西 部</dt>
+                <dd>
+                                  <a href="http://chengdu.anjuke.com" rel="nofollow">成都</a>
+                                  <a href="http://chongqing.anjuke.com" rel="nofollow">重庆</a>
+                                  <a href="http://wuhan.anjuke.com" rel="nofollow">武汉</a>
+                                  <a href="http://zhengzhou.anjuke.com" rel="nofollow">郑州</a>
+                                  <a href="http://xa.anjuke.com" rel="nofollow">西安</a>
+                                  <a href="http://km.anjuke.com" rel="nofollow">昆明</a>
+                                  <a href="http://gy.anjuke.com" rel="nofollow">贵阳</a>
+                                  <a href="http://lanzhou.anjuke.com" rel="nofollow">兰州</a>
+                                  <a href="http://luoyang.anjuke.com" rel="nofollow">洛阳</a>
+                                 </dd>
+            </dl>
+                        <div class="blank"><a href="http://www.anjuke.com/index/#location">更多城市&gt;&gt;</a></div>
+        </div>
+    </div>
+ </div>
+ <div class="tabbar_content">
+ <div class="anjuke_tabbar">
+     <ul>
+              <li class="home">
+    <a href="http://shanghai.anjuke.com/" title="上海房产"   _soj="Navigation"   ><span>首 页</span></a>
+                   </li>
+           <li class="sale">
+    <a href="http://shanghai.anjuke.com/sale/" title="上海二手房"   _soj="Navigation"  ><span>二手房</span></a>
+                   </li>
+           <li class="comm">
+    <a href="http://shanghai.anjuke.com/community/" title="上海房价"   _soj="Navigation"  class="selected" ><span>小 区</span></a>
+                   </li>
+           <li class="loupan">
+    <a href="http://sh.fang.anjuke.com/loupan/" title="上海新盘"   _soj="Navigation"  ><span>新 盘</span></a>
+                   </li>
+           <li class="fangyuan">
+    <a href="http://sh.fang.anjuke.com/fangyuan/" title="上海新房"   _soj="Navigation"  ><span>新 房</span></a>
+                   </li>
+           <li class="tuangou">
+    <a href="http://sh.fang.anjuke.com/tuangou/" title="上海团购"   _soj="Navigation"  ><span>团 购</span></a>
+                   </li>
+           <li class="question">
+    <a href="http://shanghai.anjuke.com/ask" title="上海问答"   _soj="Navigation"  ><span>问 答</span></a>
+                   </li>
+           <li class="rental">
+    <a href="http://shanghai.haozu.com/listing/" title="上海租房"  target="_blank" _soj="Navigation"  ><span>租 房</span></a>
+                   </li>
+           <li class="mobile nav_last">
+    <a href="/mobile" title="移动版"   _soj="Navigation"  ><span><i class="ico-mobile"></i>移动版</span></a>
+                   </li>
+          </ul>
+    </div>
+    
+    <span class="anjuke_tabbar_side"></span>
+</div>
+  </div>
+<div class="bg_line"></div>
+
+
+
+<div class="search-content">
+ <div class="search-box clearfix">
+ <form action="/search" id="apf_id_9_form" method="get">
+            <div class="search-input">
+               <input type="text" id="keyword_apf_id_9" value="请输入小区名或路名…" class="input_text" name="k"  maxlength="100" x-webkit-speech />
+   </div>
+     <input type="submit" value="找小区" id="sbtn2_apf_id_9" class="input_button se_community">
+        <input type="hidden" value="1" name="rd" />
+            <input type="hidden" value="3" id="search_type_apf_id_9" name="t">
+ </form>
+</div>
+
+ <div class="found_home">
+ <a rel="nofollow" target="_blank" href="/map/sale/">地图找房 &raquo;</a>
+ </div>
+</div>
+    <div class="mobile-slogen" id="mobileGuideBox">
+        <a href="http://pages.anjuke.com/app/anjuke/ios.html?from=Banner" target="_blank" class="thumb"></a>
+        <a href="http://pages.anjuke.com/app/anjuke/ios.html?from=Banner" target="_blank" class="detail" id="mobileGuideDetail"></a>
+        <a href="javascript:void(0)" class="close"  id="iKnowMobileGuide"></a>
+        <i class="close" id="closeMobileGuide"></i>
+    </div>
+    </div>
+    <div id="content">
+        <div id="bread_crumb">
+        <a href="http://shanghai.anjuke.com">首页</a> &gt;        <a href="http://shanghai.anjuke.com/community/">上海房价</a> &gt;        <a href="http://shanghai.anjuke.com/community/W0QQW0QQp1Z7">浦东</a> &gt;        <a href="http://shanghai.anjuke.com/community/W0QQW0QQp1Z7QQp2Z77">北蔡</a> &gt;        <a href="http://shanghai.anjuke.com/community/view/1">莲园路488弄</a>     </div><h2 class="hd-title" id="commtitle">莲园路488弄</h2>
+<div id="comm-nav">
+ <ul class="comm-navlist">
+   <li class="selected"><a href="http://shanghai.anjuke.com/community/view/1" title="莲园路488弄小区概况" ><span>小区概况</span></a></li>
+  <li ><a href="http://shanghai.anjuke.com/community/trends/1" title="莲园路488弄价格行情" ><span>价格行情</span></a></li>
+  <li ><a href="http://shanghai.anjuke.com/community/photos/a/1" title="莲园路488弄房型图" ><span>房型图</span></a></li>
+  <li ><a href="http://shanghai.anjuke.com/community/photos/b/1" title="莲园路488弄实景图" ><span>实景图</span></a></li>
+  <li ><a href="http://shanghai.anjuke.com/community/round/1" title="莲园路488弄生活配套" ><span>生活配套</span></a></li>
+  <li ><a href="http://shanghai.anjuke.com/community/props/rent/1" title="莲园路488弄租房" ><span>租 房</span></a></li>
+  <li ><a href="http://shanghai.anjuke.com/community/qa/1" title="莲园路488弄小区问答" ><span>小区问答</span></a></li>
+  </ul>
+      <div class="comm-Submit">
+    <input type="image" src="http://my.anjuke.com/communityRooms/CommunityNoRooms/?commId=1&ug=1&cg=1"  width="1" height="1"/>
+    </div>
+ </div><div id="comm-basic">
+ <div class="comm-image-siwtch">
+  <div class="comm-imgs" id="slider_pics">
+   <div class="comm-imgs-title" id="f_img_commname">莲园路488弄</div>
+   <div class="f_img_roll">
+   </div>
+            <!--[if IE]>  <del class="switch_container" />  <![endif]-->
+            <ul class="switch-dot" id="switch_num">
+   <li><a class="selected" id="switch_num_0" href="javascript:objFocus.nextFrame(0);">1</a></li><li><a  id="switch_num_1" href="javascript:objFocus.nextFrame(1);">2</a></li><li><a  id="switch_num_2" href="javascript:objFocus.nextFrame(2);">3</a></li><li><a  id="switch_num_3" href="javascript:objFocus.nextFrame(3);">4</a></li><li><a  id="switch_num_4" href="javascript:objFocus.nextFrame(4);">5</a></li>            
+            </ul>
+            <!--[if IE]> </del> <![endif]-->
+                        <div class="more-links">
+                <a href="http://shanghai.anjuke.com/community/photos/b/details/1_0?picsrc=" _soj="first" rel="nofollow">查看全部14张实景图&gt;&gt;</a>
+            </div>
+              </div>
+ </div>
+ <div class="comm-infos" id="lazy_line">
+    <p class="price-condition">
+   5月均价            <span id="comm_price_qt_1" class="aveager-price"><em class="price-data">21733</em>元/平米</span>，比4月<span class="down">下跌<em id="comm_chg_qt_1" class="point" >0.65%</em></span>   <a href="http://shanghai.anjuke.com/community/trends/1W0QQmonthZ6" _soj="baseinfo" >查看房价详情&gt;&gt;</a>
+  </p>
+    <p class="housing-num">
+   <span class="housing-type">二手房：<em class="loading-data"><var id="comm_salenum">-</var></em>套</a>
+   <a href="http://shanghai.anjuke.com/community/props/sale/1" _soj="baseinfo_l" style="display:none">查看全部&gt;&gt;</a>
+            </span>
+  </p>
+  <ul class="chamber-infolist">
+   <li>小区地址：莲园路488弄 &nbsp;&nbsp;&nbsp;&nbsp;<a href="http://shanghai.anjuke.com/community/round/1" rel="nofollow">查看周边地图&gt;&gt;</a></li>
+      <li>物业类型：老公房</li>
+         <li>竣工时间：1996-06</li>
+         <li>开&nbsp; 发&nbsp; 商：暂无资料</li>
+   
+      <li class="li-new">物&nbsp; 业&nbsp; 费：暂无资料</li>
+               <li id="li_fontRoomNum"><a href="http://shanghai.anjuke.com/community/photos/model/1" rel="nofollow">查看全部<em id="fontRoomNum"></em>种房型&gt;&gt;</a>&nbsp;&nbsp;</li>
+  </ul>
+        <div class="comm-fav">
+         <a href="###" class="comm-concerned" id="concerned2" rel="nofollow">关注该小区</a>
+                                                <a href="http://shanghai.anjuke.com/gujia/W0QQcidZ1QQkwZ%E8%8E%B2%E5%9B%AD%E8%B7%AF488%E5%BC%84?from=view_button" class="comm-price" target="_blank">估房价</a>                        <a href="http://my.anjuke.com/ownpbase?from=view_button" class="comm-sale" target="_blank">我要卖房</a>               <div id="apf_id_13" class="dialog" style="display:none">
+<!--[if IE 6]>
+<iframe scrolling="no" frameborder="0" style="width:390px; height:200px; top:-1px; left:-1px; background:transparent; position:absolute; z-index:-1;"></iframe>
+<![endif]-->
+<div id="popup_apf_id_13" class="view_prop_popup_fav">
+ <div id="msgbox_apf_id_13" class="my_member_marked_mm">
+         <div class="border">
+             <form name="loginForm" action="" method="post">
+             <input type="hidden" name="loginpost" value="1" />
+             <input type="hidden" name="formhash" />
+             <input type="hidden" name="systemtime" />
+             <input type="hidden" name="remember" value="1" />
+             <input type="hidden" name="history" value="aHR0cDovL215LmFuanVrZS5jb20vY29tbXVuaXR5L2NvbmNlcm5lZC9XMFFRY29tbWlkWjFRUWFjdFphZGQmc3JjPWNvbmNlcm5jb21tdW5pdHkmY29tbWlkPTEmY29tbW5hbWU9" />
+             <div class="login">
+                  <div class="title"><span><strong>请先登录</strong></span><span class="close" id="close_apf_id_13"><img src="http://pages.anjukestatic.com/img/reg/icon.close_8x9.gif" border="0" /></span></div>
+                 <div class="line"></div>
+                 <div class="msg">
+                  <div class="red" id="prompt_message_apf_id_13"></div>
+                     <div class="mail-box">
+                          <input class="my_login_logininput2" name="username_apf_id_13" id="username_apf_id_13" type="text" value="用户名或邮箱地址" onfocus="javascript:if(this.value=='用户名或邮箱地址')this.value='';this.className='my_login_logininput';"/>
+                       <span id="check_username_apf_id_13"></span>
+                     </div>
+                     <div class="password-box">
+                      <label id="password_tip_apf_id_13" class="password_tip">请输入密码</label>
+                      <input class="inputpwd" title="密码" name="password_apf_id_13" id="password_apf_id_13"  type="password">
+                      <span id="check_pass_apf_id_13"><a href="/pass?type=forget" target="_blank">忘记密码？</a></span>
+                     </div>
+                     <div class="button"><input id="submit_apf_id_13" class="login_submit" type="button" value="登 录" /> &nbsp; &nbsp; <a href="http://my.anjuke.com/reg?history=aHR0cDovL215LmFuanVrZS5jb20vY29tbXVuaXR5L2NvbmNlcm5lZC9XMFFRY29tbWlkWjFRUWFjdFphZGQmc3JjPWNvbmNlcm5jb21tdW5pdHkmY29tbWlkPTEmY29tbW5hbWU9" target="_self">还没有安居客帐号?快速注册&gt;&gt;</a></div>
+                     <div class="clear"></div>
+                 </div>
+             </div>
+             </form>
+         </div>
+ </div>
+</div>
+
+</div>
+              </div>
+ </div>
+</div>
+<input type="hidden" id="isCommQaOpen" value="1" />
+<input type="hidden" id="isCloseAjaxQa" value="1" />
+<input type="hidden" id="commid" value="1" />
+<input type="hidden" id="redirect_soj" value="comm._ask" />
+<input type="hidden" id="commname" value="莲园路488弄" />
+<input type="hidden" id="blankid" value="77" />
+
+<div id="comm_qa">
+ <div class="qa-hotinfos">
+             <h3><a href="/community/qa/1">查看所有问答&gt;&gt;</a>莲园路488弄小区问答</h3>
+          <ul class="qa-list" id="commqalist">
+                               <li>
+               <span class="all-qalist">                    <a href="" title="" class="tag" target="_blank">[&nbsp;&nbsp;]</a></span>
+                    <a href="http://www.anjuke.com/ask/view/129487" target="_blank" class="qalist-link">房产公证有有哪些手续？房产公证常见问题有哪些？</a>
+                <em class="qa-reply">回复(<a href="http://www.anjuke.com/ask/view/129487" target="_blank" class="number">3</a>)</em>
+                
+            </li>
+                        <li>
+               <span class="all-qalist">                    <a href="" title="" class="tag" target="_blank">[&nbsp;&nbsp;]</a></span>
+                    <a href="http://www.anjuke.com/ask/view/129488" target="_blank" class="qalist-link">买二手房如何办理房产证？要带哪些材料？</a>
+                <em class="qa-reply">回复(<a href="http://www.anjuke.com/ask/view/129488" target="_blank" class="number">2</a>)</em>
+                
+            </li>
+                        <li>
+               <span class="all-qalist">                    <a href="" title="" class="tag" target="_blank">[&nbsp;&nbsp;]</a></span>
+                    <a href="http://www.anjuke.com/ask/view/129489" target="_blank" class="qalist-link">房屋产权一般可分为几种？有什么区分？</a>
+                <em class="qa-reply">回复(<a href="http://www.anjuke.com/ask/view/129489" target="_blank" class="number">2</a>)</em>
+                
+            </li>
+                        <li>
+               <span class="all-qalist">                    <a href="" title="" class="tag" target="_blank">[&nbsp;&nbsp;]</a></span>
+                    <a href="http://www.anjuke.com/ask/view/129490" target="_blank" class="qalist-link">房产证名字变更的流程是怎么样？费用多少？</a>
+                <em class="qa-reply">回复(<a href="http://www.anjuke.com/ask/view/129490" target="_blank" class="number">2</a>)</em>
+                
+            </li>
+                        <li>
+               <span class="all-qalist">                    <a href="" title="" class="tag" target="_blank">[&nbsp;&nbsp;]</a></span>
+                    <a href="http://www.anjuke.com/ask/view/129492" target="_blank" class="qalist-link">房产证去名字的流程是怎么样？费用多少？</a>
+                <em class="qa-reply">回复(<a href="http://www.anjuke.com/ask/view/129492" target="_blank" class="number">6</a>)</em>
+                
+            </li>
+                        
+        </ul>        
+          <div class="qa-search-panel clearfix">
+            <form action="" method="get" id="frm_question"></form>
+            <div class="search-panel-fields">
+               <input type="text" name="k" class="search-input notxt" id="question_title" maxlength="50" value="请输入您的问题" nullvalue='请输入您的问题'  />
+                </div>
+            <input type="button" class="qa-search-btn" id="submit_btn" value="搜索答案">
+            </div>
+          <div class="qa-asking">试试提问，5分钟内房产专家为您解答。<a target="_blank" href="/ask/new/">马上提问&gt;&gt;</a></div>
+            </div>
+ <div class="comm-usercomment">
+  <div class="praise-degree" id="toolbar">
+    <h5>小区好评度</h5>
+ <div id="toolbar_content_pad" class="commscore">
+          <p>
+          <span id="grade_stars" class="score-stars">
+              <span class="score-skip" id="grade_current_div" style="width:39px">5.2</span>
+          </span>
+          <span class="score-infos">5.2分 （<em id="grade_persons_div">5人参与）</em>
+          </span>
+         </p>
+       <p class="score-loading" id="star_loading"><img src="http://pages.anjukestatic.com/img/map/load_18x18.gif" align="absmiddle" alt="" /></p>
+ </div>
+ <div class="scoring">
+       <a href="###" id="my_grade" rel="nofollow">我也要打分</a>
+       <div class="score-notice" id="grade_notice_content"></div>
+    </div>
+     
+<div id="apf_id_15" class="dialog" style="display:none">
+<!--[if IE 6]>
+<iframe scrolling="no" frameborder="0" style="width:390px; height:200px; top:-1px; left:-1px; background:transparent; position:absolute; z-index:-1;"></iframe>
+<![endif]-->
+<div id="popup_apf_id_15" class="view_prop_popup_fav">
+ <div id="msgbox_apf_id_15" class="my_member_marked_mm">
+         <div class="border">
+             <form name="loginForm" action="" method="post">
+             <input type="hidden" name="loginpost" value="1" />
+             <input type="hidden" name="formhash" />
+             <input type="hidden" name="systemtime" />
+             <input type="hidden" name="remember" value="1" />
+             <input type="hidden" name="history" value="aHR0cDovL3d3dy5hbmp1a2UuY29tL2NvbW11bml0eS92aWV3LzE=" />
+             <div class="login">
+                  <div class="title"><span><strong>请先登录</strong></span><span class="close" id="close_apf_id_15"><img src="http://pages.anjukestatic.com/img/reg/icon.close_8x9.gif" border="0" /></span></div>
+                 <div class="line"></div>
+                 <div class="msg">
+                  <div class="red" id="prompt_message_apf_id_15"></div>
+                     <div class="mail-box">
+                          <input class="my_login_logininput2" name="username_apf_id_15" id="username_apf_id_15" type="text" value="用户名或邮箱地址" onfocus="javascript:if(this.value=='用户名或邮箱地址')this.value='';this.className='my_login_logininput';"/>
+                       <span id="check_username_apf_id_15"></span>
+                     </div>
+                     <div class="password-box">
+                      <label id="password_tip_apf_id_15" class="password_tip">请输入密码</label>
+                      <input class="inputpwd" title="密码" name="password_apf_id_15" id="password_apf_id_15"  type="password">
+                      <span id="check_pass_apf_id_15"><a href="/pass?type=forget" target="_blank">忘记密码？</a></span>
+                     </div>
+                     <div class="button"><input id="submit_apf_id_15" class="login_submit" type="button" value="登 录" /> &nbsp; &nbsp; <a href="http://my.anjuke.com/reg?history=aHR0cDovL3d3dy5hbmp1a2UuY29tL2NvbW11bml0eS92aWV3LzE=" target="_blank">还没有安居客帐号?快速注册&gt;&gt;</a></div>
+                     <div class="clear"></div>
+                 </div>
+             </div>
+             </form>
+         </div>
+ </div>
+</div>
+
+</div>
+<div id="apf_id_16" class="dialog" style="display:none">
+<!--[if IE 6]>
+<iframe scrolling="no" frameborder="0" style="width:390px; height:200px; top:-1px; left:-1px; background:transparent; position:absolute; z-index:-1;"></iframe>
+<![endif]-->
+<div id="popup_apf_id_16" class="view_prop_popup_fav">
+ <div id="msgbox_apf_id_16" class="my_member_marked_mm">
+         <div class="border">
+             <form name="loginForm" action="" method="post">
+             <input type="hidden" name="loginpost" value="1" />
+             <input type="hidden" name="formhash" />
+             <input type="hidden" name="systemtime" />
+             <input type="hidden" name="remember" value="1" />
+             <input type="hidden" name="history" value="aHR0cDovL3d3dy5hbmp1a2UuY29tL2NvbW11bml0eS92aWV3LzE=" />
+             <div class="login">
+                  <div class="title"><span><strong>请先登录</strong></span><span class="close" id="close_apf_id_16"><img src="http://pages.anjukestatic.com/img/reg/icon.close_8x9.gif" border="0" /></span></div>
+                 <div class="line"></div>
+                 <div class="msg">
+                  <div class="red" id="prompt_message_apf_id_16"></div>
+                     <div class="mail-box">
+                          <input class="my_login_logininput2" name="username_apf_id_16" id="username_apf_id_16" type="text" value="用户名或邮箱地址" onfocus="javascript:if(this.value=='用户名或邮箱地址')this.value='';this.className='my_login_logininput';"/>
+                       <span id="check_username_apf_id_16"></span>
+                     </div>
+                     <div class="password-box">
+                      <label id="password_tip_apf_id_16" class="password_tip">请输入密码</label>
+                      <input class="inputpwd" title="密码" name="password_apf_id_16" id="password_apf_id_16"  type="password">
+                      <span id="check_pass_apf_id_16"><a href="/pass?type=forget" target="_blank">忘记密码？</a></span>
+                     </div>
+                     <div class="button"><input id="submit_apf_id_16" class="login_submit" type="button" value="登 录" /> &nbsp; &nbsp; <a href="http://my.anjuke.com/reg?history=aHR0cDovL3d3dy5hbmp1a2UuY29tL2NvbW11bml0eS92aWV3LzE=" target="_blank">还没有安居客帐号?快速注册&gt;&gt;</a></div>
+                     <div class="clear"></div>
+                 </div>
+             </div>
+             </form>
+         </div>
+ </div>
+</div>
+
+</div>
+  </div>
+        <div class="intent-comm">
+            <h4 class="hd-top">您在安居客看过的小区</h4>
+              <ul class="ilist">
+                                            </ul>
+        </div>
+  </div>
+ <div class="clear"></div>
+</div>
+<div id="comm_info">
+ <div class="comm-survey">
+     <h3>莲园路488弄概况</h3>
+        <div class="brief-intro" id="comm_details">
+         <p id="more" class="brief-title-1">
+          虽然是老公房但是地段不错，交通比价便利，周边配套设施也比较齐全，医院、学校、购物都很方便。         </p>
+         <p id="less" class="brief-title-2">
+          虽然是老公房但是地段不错，交通比价便利，周边配套设施也比较齐全，医院、学校、购物都很方便。          <a href="javascript:;" id="lesslink">收起...</a>
+         </p>
+             <ul class="brief-list">
+               <li><span>物业公司：田丰物业</span></li>
+                            <li>总户数：326户</li>
+                                        <li>停车位：充足</li>        
+                                        <li>
+                   <span class="comm-point">绿化率：30%</span>
+                    <span class="tips" onmouseover="this.className='on'" onmouseout="this.className='tips'" onclick="" title="绿化率=绿地面积/土地面积。一般情况下，绿化率越高，居民的舒适度越高，反之舒适度越低。"></span>
+                </li>
+                                        <li>
+                 <span class="comm-point">容积率：1.4</span>
+                    <span class="tips" onmouseover="this.className='on'" onmouseout="this.className='tips'" onclick="" title="容积率=地上总建筑面积/规划用地面积。一般情况下，容积率越低，居民的舒适度越高，反之舒适度越低。"></span>
+                </li>
+                                        <li>总建筑面积：3000平方米</li>
+                        </ul>
+        </div>
+        <div class="comm-matching">
+            <h3>莲园路488弄配套<span class='view-details'><a href='/community/round/1#traffic_detail'>查看详细>></a></span></h3><dl class='top'><dt class='bus-line'>公交线路：</dt><dd><p>白杨路高科西路（581;771;798;龙芦专线）</p><p>高科西路莲溪路（161;塘川线）</p><p>莲溪路莲园路（161;581;798;976;龙滨专线;龙芦专线）</p><p>高科西路沪南路（771;塘川线）</p><p>高科西路沪南公路（塘川线;徐川专线）</p><p>莲溪路北中路（581;798;969;北蔡1;龙滨专线;龙芦专线）</p><p>莲溪小区（794）</p><p>北中路沪南路（161;976;北蔡1）</p><p>北中路莲中路（715;794）</p><p>北中路莲溪路（161;976;北蔡1）</p></dd></dl><dl class=''><dt class='round-info'>周边设施：</dt><dd><p>便利店 (<a href='/community/round/1#traffic_detail'>41</a>)，超市 (<a href='/community/round/1#traffic_detail'>34</a>)，餐饮店 (<a href='/community/round/1#traffic_detail'>38</a>)，银行 (<a href='/community/round/1#traffic_detail'>16</a>)，医院 (<a href='/community/round/1#traffic_detail'>15</a>)</p></dd></dl>        </div>
+        </div>
+<div id="apf_id_17" class="dialog" style="display:none">
+<!--[if IE 6]>
+<iframe scrolling="no" frameborder="0" style="width:390px; height:200px; top:-1px; left:-1px; background:transparent; position:absolute; z-index:-1;"></iframe>
+<![endif]-->
+<div id="popup_apf_id_17" class="view_prop_popup_fav">
+ <div id="msgbox_apf_id_17" class="my_member_marked_mm">
+         <div class="border">
+             <form name="loginForm" action="" method="post">
+             <input type="hidden" name="loginpost" value="1" />
+             <input type="hidden" name="formhash" />
+             <input type="hidden" name="systemtime" />
+             <input type="hidden" name="remember" value="1" />
+             <input type="hidden" name="history" value="L2NvbW11bml0eS9jb3JyZWN0L2luZm8vMQ==" />
+             <div class="login">
+                  <div class="title"><span><strong>请先登录</strong></span><span class="close" id="close_apf_id_17"><img src="http://pages.anjukestatic.com/img/reg/icon.close_8x9.gif" border="0" /></span></div>
+                 <div class="line"></div>
+                 <div class="msg">
+                  <div class="red" id="prompt_message_apf_id_17"></div>
+                     <div class="mail-box">
+                          <input class="my_login_logininput2" name="username_apf_id_17" id="username_apf_id_17" type="text" value="用户名或邮箱地址" onfocus="javascript:if(this.value=='用户名或邮箱地址')this.value='';this.className='my_login_logininput';"/>
+                       <span id="check_username_apf_id_17"></span>
+                     </div>
+                     <div class="password-box">
+                      <label id="password_tip_apf_id_17" class="password_tip">请输入密码</label>
+                      <input class="inputpwd" title="密码" name="password_apf_id_17" id="password_apf_id_17"  type="password">
+                      <span id="check_pass_apf_id_17"><a href="/pass?type=forget" target="_blank">忘记密码？</a></span>
+                     </div>
+                     <div class="button"><input id="submit_apf_id_17" class="login_submit" type="button" value="登 录" /> &nbsp; &nbsp; <a href="http://my.anjuke.com/reg?history=L2NvbW11bml0eS9jb3JyZWN0L2luZm8vMQ==" target="_self">还没有安居客帐号?快速注册&gt;&gt;</a></div>
+                     <div class="clear"></div>
+                 </div>
+             </div>
+             </form>
+         </div>
+ </div>
+</div>
+
+</div>
+ <div class="survey-relevant">
+               <div style="clear:both"></div>
+    </div>
+</div>
+<input type="hidden" id='is_masterstore' value="0">
+ <!--无主营小区-->
+<div id="zyxq_false">
+</div>
+
+<div id="IFX_p17" style="margin-top:20px;" class="zyxq-hd"></div>
+<script type="text/javascript" src="http://ifx.aifang.com/s?p=17&c=11&m=1&o=1"></script>
+
+<div id="comm-price">
+ <h3 class="hd-top-all">
+  <span class="gotop"><a href="#">返回顶部</a></span>
+     莲园路488弄价格行情
+    </h3>
+ <div class="comm-level-curve">
+  <p>
+   <span class="example-comm"><em>■</em>莲园路488弄</span>
+   <span class="example-block"><em>■</em>北蔡（所在板块）</span>
+  </p>
+  <p>
+   <a href="http://shanghai.anjuke.com/community/trends/1W0QQmonthZ6" _soj="trendimg">
+    <img src="http://static.anjuke.com/chart/pricetrendcomm/W0QQtZ1QQcodeZ1QQwZ385QQhZ180QQdateZ20130515QQticksZ1QQextZ.pngQQacZ000100070077QQmthZ5??radius=0" alt="" border="0" />
+   </a>
+  </p>
+ </div>
+ <div class="comm-price-trend">
+  <p>
+   莲园路488弄<br />
+   5月均价<em>21733元/平米</em>，比4月下跌 <em style="color:#339900">0.65%</em>  </p>
+  <p>
+   北蔡板块<br />
+   5月均价<em>24729元/平米</em>，比4月下跌 <em style="color:#339900">0.02%</em>  </p>
+  <p>
+   <a href="http://shanghai.anjuke.com/community/trends/1W0QQmonthZ6" >查看房价走势大图&gt;</a><br />
+   <a href="javascript:;" style="" id="price_" rel="nofollow">查看小区今日房价&gt;</a>
+  </p>
+  <div id="apf_id_18" class="dialog" style="display:none">
+<!--[if IE 6]>
+<iframe scrolling="no" frameborder="0" style="width:390px; height:200px; top:-1px; left:-1px; background:transparent; position:absolute; z-index:-1;"></iframe>
+<![endif]-->
+<div id="popup_apf_id_18" class="view_prop_popup_fav">
+ <div id="msgbox_apf_id_18" class="my_member_marked_mm">
+         <div class="border">
+             <form name="loginForm" action="" method="post">
+             <input type="hidden" name="loginpost" value="1" />
+             <input type="hidden" name="formhash" />
+             <input type="hidden" name="systemtime" />
+             <input type="hidden" name="remember" value="1" />
+             <input type="hidden" name="history" value="aHR0cDovL3NoYW5naGFpLmFuanVrZS5jb20vY29tbXVuaXR5L3RvZGF5LzE=" />
+             <div class="login">
+                  <div class="title"><span><strong>请先登录</strong></span><span class="close" id="close_apf_id_18"><img src="http://pages.anjukestatic.com/img/reg/icon.close_8x9.gif" border="0" /></span></div>
+                 <div class="line"></div>
+                 <div class="msg">
+                  <div class="red" id="prompt_message_apf_id_18"></div>
+                     <div class="mail-box">
+                          <input class="my_login_logininput2" name="username_apf_id_18" id="username_apf_id_18" type="text" value="用户名或邮箱地址" onfocus="javascript:if(this.value=='用户名或邮箱地址')this.value='';this.className='my_login_logininput';"/>
+                       <span id="check_username_apf_id_18"></span>
+                     </div>
+                     <div class="password-box">
+                      <label id="password_tip_apf_id_18" class="password_tip">请输入密码</label>
+                      <input class="inputpwd" title="密码" name="password_apf_id_18" id="password_apf_id_18"  type="password">
+                      <span id="check_pass_apf_id_18"><a href="/pass?type=forget" target="_blank">忘记密码？</a></span>
+                     </div>
+                     <div class="button"><input id="submit_apf_id_18" class="login_submit" type="button" value="登 录" /> &nbsp; &nbsp; <a href="http://my.anjuke.com/reg?history=aHR0cDovL3NoYW5naGFpLmFuanVrZS5jb20vY29tbXVuaXR5L3RvZGF5LzE=" target="_blank">还没有安居客帐号?快速注册&gt;&gt;</a></div>
+                     <div class="clear"></div>
+                 </div>
+             </div>
+             </form>
+         </div>
+ </div>
+</div>
+
+</div>
+ </div>
+    <div class="clearfix"></div>
+</div>
+<div id="comm-map">
+    <div class="map-mark"><span class="leftpart"></span><span class="rightpart">莲园路488弄</span></div>
+     <h3 id="map" class="hd-top-all">
+  <span class="gotop"><a href="#">返回顶部</a></span>
+  莲园路488弄周边地图
+ </h3>
+       <div class="propMapBarMap" id="propMapBarMap">
+                        <a title="点击地图查看小区生活配套" target="_blank" style="width: 650px; height: 250px; display: block;" href="/community/round/1"><img src="http://api.map.baidu.com/staticimage?width=650&height=250&center=121.56413583283,31.191956724699&zoom=16"/></a>
+
+                     </div>
+
+     <div class="propMapBarCommIntro" id="around_search_apf_id_19">
+      <table border="0" cellpadding="0" cellspacing="0">
+       <tr>
+        <th width="36">地址：</th>
+        <td width="209">莲园路488弄</td>
+       </tr>
+              <tr>
+        <th width="36">地铁：</th>
+        <td>M7规划中</td>
+       </tr>
+                     <tr>
+        <th width="36">公交：</th>
+        <td>992 715 161 792等</td>
+       </tr>
+              <!--tr>
+        <td colspan="2">
+         <a href="/map/sale/#l1=31.191956724699&l2=121.56413583283&l3=17&flag=1&commname=莲园路488弄&commid=1" _soj="comm_view" target="_blank" rel="nofollow">在大地图上查看周边小区&gt;&gt;</a>
+        </td>
+       </tr-->
+<!--        <tr>
+            <td colspan="2"><a href="/community/correct/map/1" target="_blank" rel="nofollow">小区位置报错</a></td>
+              </tr> -->
+      </table>
+     </div>
+     <div class="clear"></div>
+  
+</div>
+<div id="comm-images">
+ <h3 class="hd-top-all">
+  <span class="gotop"><a href="#">返回顶部</a></span>
+  莲园路488弄实景图
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><a href="http://shanghai.anjuke.com/community/photos/b/details/1_0?picsrc=">查看全部14张实景图&gt;&gt;</a></span>
+ </h3>
+ <ul class="imglist">
+    <li>
+   <a href="http://shanghai.anjuke.com/community/photos/b/details/1_1?picsrc=http%3A%2F%2Fpic1.ajkimg.com%2Fdisplay%2F77556b16a13bff39feb30cd9952d2c52%2F200x200.jpg"><img src="http://pic1.ajkimg.com/display/77556b16a13bff39feb30cd9952d2c52/200x200.jpg" alt="实景图" /></a>
+  </li>
+    <li>
+   <a href="http://shanghai.anjuke.com/community/photos/b/details/1_2?picsrc=http%3A%2F%2Fpic1.ajkimg.com%2Fdisplay%2F4de34e7daadb556f5496bf0b7a679fea%2F200x200.jpg"><img src="http://pic1.ajkimg.com/display/4de34e7daadb556f5496bf0b7a679fea/200x200.jpg" alt="实景图" /></a>
+  </li>
+    <li>
+   <a href="http://shanghai.anjuke.com/community/photos/b/details/1_3?picsrc=http%3A%2F%2Fpic1.ajkimg.com%2Fdisplay%2Fbd6c98e33d7cf7e9d3ea54973e3758a4%2F200x200.jpg"><img src="http://pic1.ajkimg.com/display/bd6c98e33d7cf7e9d3ea54973e3758a4/200x200.jpg" alt="实景图" /></a>
+  </li>
+    <li>
+   <a href="http://shanghai.anjuke.com/community/photos/b/details/1_4?picsrc=http%3A%2F%2Fpic1.ajkimg.com%2Fdisplay%2F9142aa4dadd5d4699182f1f9ecf264de%2F200x200.jpg"><img src="http://pic1.ajkimg.com/display/9142aa4dadd5d4699182f1f9ecf264de/200x200.jpg" alt="实景图" /></a>
+  </li>
+   </ul>
+</div>
+
+<div id="comm-relative" style="display:none;">
+ <h3 class="hd-top-all">
+  看过莲园路488弄的人还看了...
+ </h3>
+      <var id="comm_interest_box"></var>
+ <ul class="commlist" id="comm_interest">
+ </ul>
+</div>
+<div id="IFX_p22" style="position:relative;"></div>
+    <!--未收录房源-->
+    <div class="uninclude-houses">
+        <h2 class="hd-top-all">其他房源</h2>
+        <ul class="clearfix">
+                            <li><a href="/prop/view/159090788" _soj="no-record">业主急售。低于市场价20万。</a></li>
+                            <li><a href="/prop/view/159066672" _soj="no-record">潍坊十村、一室一厅，精装</a></li>
+                            <li><a href="/prop/view/159095601" _soj="no-record">潍坊十村、小区中心位置、</a></li>
+                            <li><a href="/prop/view/159111133" _soj="no-record">笋盘笋盘！52.36+30平米 20万精</a></li>
+                            <li><a href="/prop/view/159066141" _soj="no-record">潍坊九村、对口明珠B校、小</a></li>
+                            <li><a href="/prop/view/158980645" _soj="no-record">新出一室半 黄金楼层小区中</a></li>
+                            <li><a href="/prop/view/159066948" _soj="no-record">泉东小区对口明珠A校，小区</a></li>
+                            <li><a href="/prop/view/158957711" _soj="no-record">一梯两户得房率高 满五年 低</a></li>
+                            <li><a href="/prop/view/158952112" _soj="no-record">世茂滨江5号楼大两房降价30</a></li>
+                            <li><a href="/prop/view/158985117" _soj="no-record">仁和花苑新2房  德平路地铁</a></li>
+                    </ul>
+    </div>
+
+<div id="adanjuke_community_zoneid_01" style="border:#E6E6E6 solid 1px;margin-top: 10px; padding:5px; width:960px;text-align:center;display:none;">
+ <script type="text/javascript"></script>
+</div>
+<div class="enjoin" name="dialog" style="display: none;">
+    <div class="en_wrap">
+        <div class="en_img"></div>
+        <div class="en_main">
+            <h5>该小区位置已通过安居客认证，请放心使用！感谢您对我们工作的支持！</h5>
+            <div style="padding-left: 40px; margin-top: 10px;">
+                <input type="button" class="en_btn" value="&nbsp;" onclick="jQuery(this).parents('div[name=dialog]').hide();" />
+            </div>
+        </div>
+        <div class="en_link">
+            <a href="javascript:;" onclick="jQuery(this).parents('div[name=dialog]').hide();"><img src="http://pages.anjukestatic.com/img/group/p3816_close.gif" alt="" /></a>
+        </div>
+    </div>
+</div>
+<script src="http://pages.anjukestatic.com/js/jquery-1.5.1/jquery-1.5.1.min.js"></script>
+<script>jQuery.noConflict()</script>
+<script id="jinpu_ad_loading" type="text/javascript" defer ></script>
+    </div>
+    <div style="clear:both;"></div>
+    <div id="footer">
+        
+ 
+ <div style="COLOR: #999; LINE-HEIGHT: 2em; BORDER-BOTTOM: #ADC869 3px solid; TEXT-ALIGN: center"></div>
+ 
+    <div class="footerLinkpack">
+
+    <div class="footerLinkTitle">
+    莲园路488弄相关信息
+    </div>
+
+
+    <div class="footerLink">
+    <a href="http://shanghai.anjuke.com/sale/pudong/" >浦东二手房</a>&nbsp;&nbsp;
+    <a href="http://shanghai.anjuke.com/sale/beicai/" >北蔡二手房</a>&nbsp;&nbsp;
+ <a href="/sale/?kw=%E8%8E%B2%E5%9B%AD%E8%B7%AF488%E5%BC%84" >莲园路488弄二手房</a>&nbsp;&nbsp;
+     <a href="/community/props/rent/1" >莲园路488弄租房</a>&nbsp;&nbsp;
+    <a href="/market/W0QQsZ1QQacommidZ1" >莲园路488弄房价走势</a>&nbsp;&nbsp;
+    <a href="http://shanghai.haozu.com/compound/1" >莲园路488弄租房网</a>
+    </div>
+
+
+      <div class="footerLinkTitle">
+         莲园路488弄周边小区
+     </div>
+ 
+     <div class="footerLink">
+                      <a href="/community/view/394699" >大华锦绣华城11街区</a>&nbsp;&nbsp;
+                      <a href="/community/view/394698" >大华锦绣华城10街区</a>&nbsp;&nbsp;
+                      <a href="/community/view/394696" >大华锦绣华城4街区</a>&nbsp;&nbsp;
+                      <a href="/community/view/370121" >万科五玠坊</a>&nbsp;&nbsp;
+                      <a href="/community/view/244370" >绿洲康城亲水湾公寓</a>&nbsp;&nbsp;
+                      <a href="/community/view/200907" >浦东星河湾</a>&nbsp;&nbsp;
+                      <a href="/community/view/129166" >白杨小区</a>&nbsp;&nbsp;
+                      <a href="/community/view/85230" >万科金色城市</a>&nbsp;&nbsp;
+                      <a href="/community/view/15357" >鹏海东苑</a>&nbsp;&nbsp;
+                      <a href="/community/view/13936" >莲中路250弄</a>&nbsp;&nbsp;
+                      <a href="/community/view/10694" >御桥馨华苑</a>&nbsp;&nbsp;
+                      <a href="/community/view/6031" >鹏海小区</a>&nbsp;&nbsp;
+                      <a href="/community/view/6026" >莲溪六村</a>&nbsp;&nbsp;
+                      <a href="/community/view/5992" >莲业新村</a>&nbsp;&nbsp;
+                      <a href="/community/view/5922" >莲溪八村</a>&nbsp;&nbsp;
+                      <a href="/community/view/5909" >莲溪二村</a>&nbsp;&nbsp;
+              </div>
+     
+ 
+   
+</div>
+
+
+<br clear="all"/>
+
+<div></div>
+<div style="clear:left;"></div>
+<div id="topic" style="text-align:center;padding-top:8px;border-top:1px #E0E0E0 solid">
+      <span class="link_span"><a href="http://shanghai.anjuke.com/help/question/1" rel="nofollow">关于我们</a></span>|
+      <span class="link_span"><a href="http://shanghai.anjuke.com/help/type/256" rel="nofollow">媒体报道</a></span>|
+      <span class="link_span"><a href="http://job.anjuke.com/" rel="nofollow">人才招聘</a></span>|
+      <span class="link_span"><a href="http://shanghai.anjuke.com/help/question/4" rel="nofollow">联系我们</a></span>|
+      <span class="link_span"><a href="http://shanghai.anjuke.com/help/question/7" rel="nofollow">用户协议</a></span>|
+      <span class="link_span"><a href="http://shanghai.anjuke.com/help" rel="nofollow">使用帮助</a></span>|
+      <span class="link_span"><a href="http://shanghai.anjuke.com/friendlink" rel="nofollow">友情链接</a></span>|
+      <span class="link_span"><a href="http://shanghai.anjuke.com/sitemap/" rel="nofollow">网站地图</a></span>|
+      <span class="link_span"><a href="javascript:;" id="show_city_list" rel="nofollow">其它城市</a></span>|
+      <!--<span class="link_span"><a href="http://shanghai.anjuke.com/community/hot/">热门搜索</a></span>|-->
+      <span class="link_span"><a href="http://shanghai.anjuke.com/fang/">最新房源</a></span>|
+      <span class="link_span"><a href="http://shanghai.anjuke.com/wenti/">最新问答</a></span>|
+    <span class="link_span"><a href="http://www.zx110.org/cxs/index.html" target="_blank" rel="nofollow">放心搜</a></span>
+</div>
+<div style="clear:left;"></div>
+<div id="city_list" style="display:none;">
+ <ul>
+            <li><a href="http://guangzhou.anjuke.com/sale/">广州二手房</a></li>
+            <li><a href="http://shenzhen.anjuke.com/sale/">深圳二手房</a></li>
+            <li><a href="http://beijing.anjuke.com/sale/">北京二手房</a></li>
+            <li><a href="http://chengdu.anjuke.com/sale/">成都二手房</a></li>
+            <li><a href="http://nanjing.anjuke.com/sale/">南京二手房</a></li>
+            <li><a href="http://tianjin.anjuke.com/sale/">天津二手房</a></li>
+            <li><a href="http://hangzhou.anjuke.com/sale/">杭州二手房</a></li>
+            <li><a href="http://suzhou.anjuke.com/sale/">苏州二手房</a></li>
+            <li><a href="http://chongqing.anjuke.com/sale/">重庆二手房</a></li>
+            <li><a href="http://dalian.anjuke.com/sale/">大连二手房</a></li>
+            <li><a href="http://wuhan.anjuke.com/sale/">武汉二手房</a></li>
+            <li><a href="http://jinan.anjuke.com/sale/">济南二手房</a></li>
+            <li><a href="http://foshan.anjuke.com/sale/">佛山二手房</a></li>
+            <li><a href="http://wuxi.anjuke.com/sale/">无锡二手房</a></li>
+            <li><a href="http://zhengzhou.anjuke.com/sale/">郑州二手房</a></li>
+            <li><a href="http://cs.anjuke.com/sale/">长沙二手房</a></li>
+            <li><a href="http://qd.anjuke.com/sale/">青岛二手房</a></li>
+            <li><a href="http://xa.anjuke.com/sale/">西安二手房</a></li>
+            <li><a href="http://nb.anjuke.com/sale/">宁波二手房</a></li>
+            <li><a href="http://hf.anjuke.com/sale/">合肥二手房</a></li>
+            <li><a href="http://dg.anjuke.com/sale/">东莞二手房</a></li>
+            <li><a href="http://fz.anjuke.com/sale/">福州二手房</a></li>
+            <li><a href="http://km.anjuke.com/sale/">昆明二手房</a></li>
+            <li><a href="http://gy.anjuke.com/sale/">贵阳二手房</a></li>
+            <li><a href="http://ty.anjuke.com/sale/">太原二手房</a></li>
+            <li><a href="http://sy.anjuke.com/sale/">沈阳二手房</a></li>
+            <li><a href="http://ks.anjuke.com/sale/">昆山二手房</a></li>
+            <li><a href="http://nc.anjuke.com/sale/">南昌二手房</a></li>
+            <li><a href="http://zh.anjuke.com/sale/">珠海二手房</a></li>
+            <li><a href="http://cz.anjuke.com/sale/">常州二手房</a></li>
+            <li><a href="http://zs.anjuke.com/sale/">中山二手房</a></li>
+            <li><a href="http://jx.anjuke.com/sale/">嘉兴二手房</a></li>
+            <li><a href="http://xm.anjuke.com/sale/">厦门二手房</a></li>
+            <li><a href="http://yt.anjuke.com/sale/">烟台二手房</a></li>
+            <li><a href="http://haikou.anjuke.com/sale/">海口二手房</a></li>
+            <li><a href="http://cc.anjuke.com/sale/">长春二手房</a></li>
+            <li><a href="http://sanya.anjuke.com/sale/">三亚二手房</a></li>
+            <li><a href="http://huizhou.anjuke.com/sale/">惠州二手房</a></li>
+            <li><a href="http://baoding.anjuke.com/sale/">保定二手房</a></li>
+            <li><a href="http://guilin.anjuke.com/sale/">桂林二手房</a></li>
+            <li><a href="http://handan.anjuke.com/sale/">邯郸二手房</a></li>
+            <li><a href="http://jilin.anjuke.com/sale/">吉林二手房</a></li>
+            <li><a href="http://lanzhou.anjuke.com/sale/">兰州二手房</a></li>
+            <li><a href="http://langfang.anjuke.com/sale/">廊坊二手房</a></li>
+            <li><a href="http://luoyang.anjuke.com/sale/">洛阳二手房</a></li>
+            <li><a href="http://mianyang.anjuke.com/sale/">绵阳二手房</a></li>
+            <li><a href="http://nanning.anjuke.com/sale/">南宁二手房</a></li>
+            <li><a href="http://nantong.anjuke.com/sale/">南通二手房</a></li>
+            <li><a href="http://quanzhou.anjuke.com/sale/">泉州二手房</a></li>
+            <li><a href="http://shaoxing.anjuke.com/sale/">绍兴二手房</a></li>
+            <li><a href="http://taizhou.anjuke.com/sale/">泰州二手房</a></li>
+            <li><a href="http://tangshan.anjuke.com/sale/">唐山二手房</a></li>
+            <li><a href="http://weihai.anjuke.com/sale/">威海二手房</a></li>
+            <li><a href="http://weifang.anjuke.com/sale/">潍坊二手房</a></li>
+            <li><a href="http://xuzhou.anjuke.com/sale/">徐州二手房</a></li>
+            <li><a href="http://yangzhou.anjuke.com/sale/">扬州二手房</a></li>
+            <li><a href="http://yichang.anjuke.com/sale/">宜昌二手房</a></li>
+            <li><a href="http://yinchuan.anjuke.com/sale/">银川二手房</a></li>
+            <li><a href="http://zhenjiang.anjuke.com/sale/">镇江二手房</a></li>
+            <li><a href="http://sjz.anjuke.com/sale/">石家庄二手房</a></li>
+            <li><a href="http://heb.anjuke.com/sale/">哈尔滨二手房</a></li>
+            <li><a href="http://qinhuangdao.anjuke.com/sale/">秦皇岛二手房</a></li>
+            <li><a href="http://huhehaote.anjuke.com/sale/">呼和浩特二手房</a></li>
+        </ul>
+</div>
+<div class="friendlinks">
+ <a href="http://pages.anjuke.com/about/anjuke_inc.html" target="_blank" rel="nofollow">安居客集团：</a><a href="http://www.anjuke.com">安居客</a>
+ <span>|</span>
+ <a href="http://www.haozu.com" target="_blank">好租</a>
+     <span>|</span>
+ <a href="http://www.jinpu.com" target="_blank">金铺</a>
+     <!--<span style="margin-left:20px;"><a href="http://shanghai.anjuke.com/letters/A/" target="_blank">A </a><a href="http://shanghai.anjuke.com/letters/B/" target="_blank">B </a><a href="http://shanghai.anjuke.com/letters/C/" target="_blank">C </a><a href="http://shanghai.anjuke.com/letters/D/" target="_blank">D </a><a href="http://shanghai.anjuke.com/letters/E/" target="_blank">E </a><a href="http://shanghai.anjuke.com/letters/F/" target="_blank">F </a><a href="http://shanghai.anjuke.com/letters/G/" target="_blank">G </a><a href="http://shanghai.anjuke.com/letters/H/" target="_blank">H </a><a href="http://shanghai.anjuke.com/letters/I/" target="_blank">I </a><a href="http://shanghai.anjuke.com/letters/J/" target="_blank">J </a><a href="http://shanghai.anjuke.com/letters/K/" target="_blank">K </a><a href="http://shanghai.anjuke.com/letters/L/" target="_blank">L </a><a href="http://shanghai.anjuke.com/letters/M/" target="_blank">M </a><a href="http://shanghai.anjuke.com/letters/N/" target="_blank">N </a><a href="http://shanghai.anjuke.com/letters/O/" target="_blank">O </a><a href="http://shanghai.anjuke.com/letters/P/" target="_blank">P </a><a href="http://shanghai.anjuke.com/letters/Q/" target="_blank">Q </a><a href="http://shanghai.anjuke.com/letters/R/" target="_blank">R </a><a href="http://shanghai.anjuke.com/letters/S/" target="_blank">S </a><a href="http://shanghai.anjuke.com/letters/T/" target="_blank">T </a><a href="http://shanghai.anjuke.com/letters/U/" target="_blank">U </a><a href="http://shanghai.anjuke.com/letters/V/" target="_blank">V </a><a href="http://shanghai.anjuke.com/letters/W/" target="_blank">W </a><a href="http://shanghai.anjuke.com/letters/X/" target="_blank">X </a><a href="http://shanghai.anjuke.com/letters/Y/" target="_blank">Y </a><a href="http://shanghai.anjuke.com/letters/Z/" target="_blank">Z </a><a href="http://shanghai.anjuke.com/letters/1/" target="_blank">1 </a><a href="http://shanghai.anjuke.com/letters/2/" target="_blank">2 </a><a href="http://shanghai.anjuke.com/letters/3/" target="_blank">3 </a><a href="http://shanghai.anjuke.com/letters/4/" target="_blank">4 </a><a href="http://shanghai.anjuke.com/letters/5/" target="_blank">5 </a><a href="http://shanghai.anjuke.com/letters/6/" target="_blank">6 </a><a href="http://shanghai.anjuke.com/letters/7/" target="_blank">7 </a><a href="http://shanghai.anjuke.com/letters/8/" target="_blank">8 </a><a href="http://shanghai.anjuke.com/letters/9/" target="_blank">9 </a><a href="http://shanghai.anjuke.com/letters/0/" target="_blank">0 </a></span>-->
+ <span style="margin-left:5px;"><a href="http://www.anjuke.com/calculator/loan" target="_blank">房贷计算器</a></span>
+</div>
+<div class="bottom_div">
+   <div class="bottom_span">
+            客服热线：400-620-9008&nbsp;&nbsp;&nbsp;&nbsp;
+            邮箱：<a href="mailto:service@anjuke.com" target="_blank" rel="nofollow"><img src="http://pages.anjukestatic.com/img/foot/email.gif"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            虚假信息举报：400-620-9008
+        </div>
+        <div class="bottom_span2">
+            Copyright &copy; 2007-2012 www.anjuke.com  All Rights Reserved <a href="http://www.miibeian.gov.cn/" rel="nofollow">ICP号：沪&nbsp;B2-20090008</a>
+        </div>
+</div>
+<div style="clear:left;">
+<div style="height:50px;"></div>
+
+</div>
+
+<!-- m=app10-070-->
+    </div>
+</div>
+
+<script type="text/javascript" src="http://pages.anjukestatic.com/js/prototype-1.6.0.3/prototype_gather_packed.js"></script>
+<script type="text/javascript" src="http://include.anjukestatic.com/anjuke/res/h/9d82aae0cea2882945656752006962c5.js"></script>
+<script type="text/javascript">
+
+new anjuke.global.header.CitySelector('switch_apf_id_7', 'city-panel', 500);
+$('switch_apf_id_7').href="javascript:;";
+
+document.observe("dom:loaded", function() {
+ new anjuke.global.header.LoginPanel({
+  'loginpanel' : 'ajax_nologin_box_id',
+  'weitoAllow' : '1',
+  'strBaseDomain' : 'anjuke.com'
+ });
+});
+ new anjuke.global.header.SearchBar({
+  'suggesturl'   : '/ajax/autocomplete',
+  'searchform'   : 'apf_id_9_form',
+  'searchtype'   : 'search_type_apf_id_9',
+  'searchkw'     : 'keyword_apf_id_9',
+  'searchbutton' : 'sbtn2_apf_id_9'
+ });
+
+ new function() {
+     var searchType = '3';
+     Element.observe(document, 'SearchBar:OptionList', function(event) {
+         searchType = event.memo;
+     });
+             new anjuke.global.search.SearchSuggestion('keyword_apf_id_9', '/ajax/autocomplete', {
+         onParameters: function(entry) {
+             var params = entry.toQueryParams();
+             if (searchType) {
+                 params.c = '11';
+                 params.t = searchType;
+                 params.vr = 1;
+             }
+             return Object.toQueryString(params);
+         },
+         formid: 'apf_id_9_form'
+     });
+         }
+
+//传递当前登陆框的componentId给外面的component使用
+var initTriggerFn = function(event){
+    var handleResponse = function(transport){
+        var rst = transport.responseJSON;
+        if(rst.userid>0){
+                                window.open('http://my.anjuke.com/community/concerned/W0QQcommidZ1QQactZadd&src=concerncommunity&commid=1&commname=');
+                    }else{
+            window.confirm = new My_Popup_Login('apf_id_13','popup_apf_id_13');
+            window.confirm.handleCallBack = function(){
+                                    eval('correctObj.getIfConcerned2()');
+                                            };
+            confirm.show();
+            if( window.regconfirm) {
+                window.regconfirm.handleCallBack = function(){
+                    eval('correctObj.getIfConcerned2()');
+                                    }
+            }
+        }
+    };
+
+    new Ajax.Request("/ajax/loginbox",{method:"get",parameters:{r:Math.random(),cklogin:1},onSuccess:handleResponse});
+    event.stop();
+    //return false;
+}
+var trigger_id = 'concerned2';
+if(trigger_id.indexOf(',')>0){
+    //多个触发器
+    var trigger_id_arr = trigger_id.split(',');
+    for(var i=0; i<trigger_id_arr.length; i++){
+        Event.observe(trigger_id_arr[i], 'click', initTriggerFn);
+    }
+}else{
+    //单个触发器
+    if($(trigger_id)!=null){
+        Event.observe(trigger_id, 'click', initTriggerFn);
+    }
+}
+
+//点击关闭时触发的事件
+Event.observe('close_apf_id_13', 'click', function(event) {
+ if("" != ''){
+  eval('');
+ }else{
+  return;
+ }
+});
+
+//点击登录按钮时触发的事件
+Event.observe('submit_apf_id_13', 'click', function(event) {
+ confirm.login('username_apf_id_13','password_apf_id_13','apf_id_13');
+});
+Event.observe('password_apf_id_13', 'focus', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_13");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_13").remove();
+ }
+});
+Event.observe('password_tip_apf_id_13', 'mouseover', function(event) {
+ $('password_tip_apf_id_13').setStyle({cursor:'text'});
+});
+Event.observe('password_tip_apf_id_13', 'mousedown', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_13");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_13").remove();
+ }
+ document.getElementById("password_apf_id_13").focus();
+
+});
+       var correctObj =  window.correctObj = new anjuke.community.ConcernedCommunity('concerned2','1',false, 'http://my.anjuke.com');
+   
+//传递当前登陆框的componentId给外面的component使用
+var initTriggerFn = function(event){
+    var handleResponse = function(transport){
+        var rst = transport.responseJSON;
+        if(rst.userid>0){
+                                window.open('http://www.anjuke.com/community/view/1');
+                    }else{
+            window.confirm = new My_Popup_Login('apf_id_15','popup_apf_id_15');
+            window.confirm.handleCallBack = function(){
+                                    eval('window.location.reload();');
+                                            };
+            confirm.show();
+            if( window.regconfirm) {
+                window.regconfirm.handleCallBack = function(){
+                    eval('window.location.reload();');
+                                    }
+            }
+        }
+    };
+
+    new Ajax.Request("/ajax/loginbox",{method:"get",parameters:{r:Math.random(),cklogin:1},onSuccess:handleResponse});
+    event.stop();
+    //return false;
+}
+var trigger_id = 'my_grade';
+if(trigger_id.indexOf(',')>0){
+    //多个触发器
+    var trigger_id_arr = trigger_id.split(',');
+    for(var i=0; i<trigger_id_arr.length; i++){
+        Event.observe(trigger_id_arr[i], 'click', initTriggerFn);
+    }
+}else{
+    //单个触发器
+    if($(trigger_id)!=null){
+        Event.observe(trigger_id, 'click', initTriggerFn);
+    }
+}
+
+//点击关闭时触发的事件
+Event.observe('close_apf_id_15', 'click', function(event) {
+ if("" != ''){
+  eval('');
+ }else{
+  return;
+ }
+});
+
+//点击登录按钮时触发的事件
+Event.observe('submit_apf_id_15', 'click', function(event) {
+ confirm.login('username_apf_id_15','password_apf_id_15','apf_id_15');
+});
+Event.observe('password_apf_id_15', 'focus', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_15");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_15").remove();
+ }
+});
+Event.observe('password_tip_apf_id_15', 'mouseover', function(event) {
+ $('password_tip_apf_id_15').setStyle({cursor:'text'});
+});
+Event.observe('password_tip_apf_id_15', 'mousedown', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_15");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_15").remove();
+ }
+ document.getElementById("password_apf_id_15").focus();
+
+});
+
+//传递当前登陆框的componentId给外面的component使用
+var initTriggerFn = function(event){
+    var handleResponse = function(transport){
+        var rst = transport.responseJSON;
+        if(rst.userid>0){
+                                window.open('http://www.anjuke.com/community/view/1');
+                    }else{
+            window.confirm = new My_Popup_Login('apf_id_16','popup_apf_id_16');
+            window.confirm.handleCallBack = function(){
+                                    eval('window.location.reload();');
+                                            };
+            confirm.show();
+            if( window.regconfirm) {
+                window.regconfirm.handleCallBack = function(){
+                    eval('window.location.reload();');
+                                    }
+            }
+        }
+    };
+
+    new Ajax.Request("/ajax/loginbox",{method:"get",parameters:{r:Math.random(),cklogin:1},onSuccess:handleResponse});
+    event.stop();
+    //return false;
+}
+var trigger_id = 'grade_stars';
+if(trigger_id.indexOf(',')>0){
+    //多个触发器
+    var trigger_id_arr = trigger_id.split(',');
+    for(var i=0; i<trigger_id_arr.length; i++){
+        Event.observe(trigger_id_arr[i], 'click', initTriggerFn);
+    }
+}else{
+    //单个触发器
+    if($(trigger_id)!=null){
+        Event.observe(trigger_id, 'click', initTriggerFn);
+    }
+}
+
+//点击关闭时触发的事件
+Event.observe('close_apf_id_16', 'click', function(event) {
+ if("" != ''){
+  eval('');
+ }else{
+  return;
+ }
+});
+
+//点击登录按钮时触发的事件
+Event.observe('submit_apf_id_16', 'click', function(event) {
+ confirm.login('username_apf_id_16','password_apf_id_16','apf_id_16');
+});
+Event.observe('password_apf_id_16', 'focus', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_16");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_16").remove();
+ }
+});
+Event.observe('password_tip_apf_id_16', 'mouseover', function(event) {
+ $('password_tip_apf_id_16').setStyle({cursor:'text'});
+});
+Event.observe('password_tip_apf_id_16', 'mousedown', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_16");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_16").remove();
+ }
+ document.getElementById("password_apf_id_16").focus();
+
+});
+
+//传递当前登陆框的componentId给外面的component使用
+var initTriggerFn = function(event){
+    var handleResponse = function(transport){
+        var rst = transport.responseJSON;
+        if(rst.userid>0){
+                                window.open('/community/correct/info/1');
+                    }else{
+            window.confirm = new My_Popup_Login('apf_id_17','popup_apf_id_17');
+            window.confirm.handleCallBack = function(){
+                                    eval('concerncommunity.gotoCorrectInfo("/community/correct/info/1")');
+                                            };
+            confirm.show();
+            if( window.regconfirm) {
+                window.regconfirm.handleCallBack = function(){
+                    eval('concerncommunity.gotoCorrectInfo("/community/correct/info/1")');
+                                    }
+            }
+        }
+    };
+
+    new Ajax.Request("/ajax/loginbox",{method:"get",parameters:{r:Math.random(),cklogin:1},onSuccess:handleResponse});
+    event.stop();
+    //return false;
+}
+var trigger_id = 'correct_info';
+if(trigger_id.indexOf(',')>0){
+    //多个触发器
+    var trigger_id_arr = trigger_id.split(',');
+    for(var i=0; i<trigger_id_arr.length; i++){
+        Event.observe(trigger_id_arr[i], 'click', initTriggerFn);
+    }
+}else{
+    //单个触发器
+    if($(trigger_id)!=null){
+        Event.observe(trigger_id, 'click', initTriggerFn);
+    }
+}
+
+//点击关闭时触发的事件
+Event.observe('close_apf_id_17', 'click', function(event) {
+ if("" != ''){
+  eval('');
+ }else{
+  return;
+ }
+});
+
+//点击登录按钮时触发的事件
+Event.observe('submit_apf_id_17', 'click', function(event) {
+ confirm.login('username_apf_id_17','password_apf_id_17','apf_id_17');
+});
+Event.observe('password_apf_id_17', 'focus', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_17");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_17").remove();
+ }
+});
+Event.observe('password_tip_apf_id_17', 'mouseover', function(event) {
+ $('password_tip_apf_id_17').setStyle({cursor:'text'});
+});
+Event.observe('password_tip_apf_id_17', 'mousedown', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_17");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_17").remove();
+ }
+ document.getElementById("password_apf_id_17").focus();
+
+});
+    var concerncommunity = new anjuke.community.ConcernedCommunity('correct_info','1',false);
+
+//传递当前登陆框的componentId给外面的component使用
+var initTriggerFn = function(event){
+    var handleResponse = function(transport){
+        var rst = transport.responseJSON;
+        if(rst.userid>0){
+                                window.open('http://shanghai.anjuke.com/community/today/1');
+                    }else{
+            window.confirm = new My_Popup_Login('apf_id_18','popup_apf_id_18');
+            window.confirm.handleCallBack = function(){
+                                    eval('window.location.reload();window.open("http://shanghai.anjuke.com/community/today/1");');
+                                            };
+            confirm.show();
+            if( window.regconfirm) {
+                window.regconfirm.handleCallBack = function(){
+                    eval('window.location.reload();window.open("http://shanghai.anjuke.com/community/today/1");');
+                                    }
+            }
+        }
+    };
+
+    new Ajax.Request("/ajax/loginbox",{method:"get",parameters:{r:Math.random(),cklogin:1},onSuccess:handleResponse});
+    event.stop();
+    //return false;
+}
+var trigger_id = 'price_';
+if(trigger_id.indexOf(',')>0){
+    //多个触发器
+    var trigger_id_arr = trigger_id.split(',');
+    for(var i=0; i<trigger_id_arr.length; i++){
+        Event.observe(trigger_id_arr[i], 'click', initTriggerFn);
+    }
+}else{
+    //单个触发器
+    if($(trigger_id)!=null){
+        Event.observe(trigger_id, 'click', initTriggerFn);
+    }
+}
+
+//点击关闭时触发的事件
+Event.observe('close_apf_id_18', 'click', function(event) {
+ if("" != ''){
+  eval('');
+ }else{
+  return;
+ }
+});
+
+//点击登录按钮时触发的事件
+Event.observe('submit_apf_id_18', 'click', function(event) {
+ confirm.login('username_apf_id_18','password_apf_id_18','apf_id_18');
+});
+Event.observe('password_apf_id_18', 'focus', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_18");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_18").remove();
+ }
+});
+Event.observe('password_tip_apf_id_18', 'mouseover', function(event) {
+ $('password_tip_apf_id_18').setStyle({cursor:'text'});
+});
+Event.observe('password_tip_apf_id_18', 'mousedown', function(event) {
+ var tip = document.getElementById("password_tip_apf_id_18");
+ if(tip && tip.innerHTML=='请输入密码') {
+  $("password_tip_apf_id_18").remove();
+ }
+ document.getElementById("password_apf_id_18").focus();
+
+});
+
+     new anjuke.viewpage.MapBar("around_search_apf_id_19");
+    
+    /*
+     * 位置任意对齐
+     *
+     * @author  Lukin <my@lukin.cn>
+     */
+    jQuery && (function ($) {
+        /**
+         * 对齐常量
+         */
+        $.align = {
+            TL: 'tl',   // 左上
+            TC: 'tc',   // 中上
+            TR: 'tr',   // 右上
+            CL: 'cl',   // 左中
+            CC: 'cc',   // 中对齐
+            CR: 'cr',   // 右中
+            BL: 'bl',   // 左下
+            BC: 'bc',   // 中下
+            BR: 'br'    // 右下
+        };
+        /**
+         * 位置对齐
+         *
+         * @example
+         *      $(selector).align(points, offset, parent);
+         *      $(selector).center(offset, parent);
+         * @param points 对齐方式
+         *      第一个字符取值 t,b,c ，第二个字符取值 l,r,c，可以表示 9 种取值范围
+         *      分别表示 top,bottom,center 与 left,right,center 的两两组合
+         * @param offset
+         */
+        $.fn.align = function(points, offset, parent) {
+            parent = parent || window;
+            var self = this, wrap, inner, diff, xy = this.offset();
+            if (!$.isArray(points)) {
+                points = [points, points];
+            }
+            offset = offset || [0,0];
+
+            var getOffset = function(node, align) {
+                var V = align.charAt(0),
+                    H = align.charAt(1),
+                    offset, w, h, x, y;
+
+                if (node) {
+                    offset = node.offset();
+                    w = node.outerWidth();
+                    h = node.outerHeight();
+                } else {
+                    offset = {left:$(parent).scrollLeft(), top:$(parent).scrollTop()};
+                    w = $(parent).width();
+                    h = $(parent).height();
+                }
+                x = offset.left;
+                y = offset.top;
+                if (V === 'c') {
+                    y += h / 2;
+                } else if (V === 'b') {
+                    y += h;
+                }
+
+                if (H === 'c') {
+                    x += w / 2;
+                } else if (H === 'r') {
+                    x += w;
+                }
+                return { left: x, top: y };
+            }
+
+            wrap  = getOffset(null, points[0]);
+            inner = getOffset(self, points[1]);
+            diff  = [inner.left - wrap.left, inner.top - wrap.top];
+
+            xy = {
+                left: Math.max(xy.left - diff[0] + (+offset[0]), 0),
+                top: Math.max(xy.top - diff[1] + (+offset[1]), 0),
+                position: $.inArray(this.css('position'), ['absolute','relative','fixed']) == -1 ? 'absolute' : this.css('position')
+            };
+            return this.css(xy);
+        }
+        /**
+         * 居中
+         */
+        $.fn.center = function(offset, parent) {
+            return this.align('cc', offset, parent);
+        }
+
+    })(jQuery);
+    (function($){
+        $(function(){
+            $('a[rel=nofollow][href^="/community/correct/map/"]').click(function(){
+                $.post('http://my.anjuke.com/ajax/community/correct/verify', {commid: 1}, function(r){
+                    if(r['status'] == 'redircet') {
+                        location.href = r['location'];
+                        return false;
+                    } else if (r['status'] == 'ok') {
+                        $('div[name=dialog] div.en_img').removeClass('en_img_lock').removeClass('en_img_err')
+                    } else if (r['status'] == 'lock') {
+                        $('div[name=dialog] div.en_img').removeClass('en_img_err').addClass('en_img_lock')
+                    } else if (r['status'] == 'error') {
+                        $('div[name=dialog] div.en_img').removeClass('en_img_lock').addClass('en_img_err')
+                    }
+
+                    $('div[name=dialog] div.en_main h5').html(r['message']);
+                    $('div[name=dialog]').show().center();
+                },'jsonp');
+                return false;
+            });
+        });
+    })(jQuery);
+
+ var imgs = [{"max":"http:\/\/images16.anjukestatic.com\/community\/20100913\/1\/39\/25\/42\/1\/139254201\/420x315.jpg","url":"http:\/\/shanghai.anjuke.com\/community\/photos\/b\/details\/1_1?picsrc="},{"max":"http:\/\/pic1.ajkimg.com\/display\/77556b16a13bff39feb30cd9952d2c52\/420x315.jpg","url":"http:\/\/shanghai.anjuke.com\/community\/photos\/b\/details\/1_2?picsrc="},{"max":"http:\/\/pic1.ajkimg.com\/display\/4de34e7daadb556f5496bf0b7a679fea\/420x315.jpg","url":"http:\/\/shanghai.anjuke.com\/community\/photos\/b\/details\/1_3?picsrc="},{"max":"http:\/\/pic1.ajkimg.com\/display\/bd6c98e33d7cf7e9d3ea54973e3758a4\/420x315.jpg","url":"http:\/\/shanghai.anjuke.com\/community\/photos\/b\/details\/1_4?picsrc="},{"max":"http:\/\/pic1.ajkimg.com\/display\/9142aa4dadd5d4699182f1f9ecf264de\/420x315.jpg","url":"http:\/\/shanghai.anjuke.com\/community\/photos\/b\/details\/1_5?picsrc="}];
+ var objFocus = new Focus(imgs,'slider_pics');
+ new anjuke.community.CommunityView("rankorder", "comm_details");
+  if($('comm-property')) {
+ var propList = $('comm-property').select(".proplist").first();
+ var propUnit = propList.select("li");
+ propUnit.each(function(el){
+  el.observe("mouseover", function(){
+   el.addClassName("hover");
+  });
+  el.observe("mouseout", function(){
+   el.removeClassName("hover");
+  });
+  el.observe("click", function(){
+   var link = el.select("a").first().href;
+   var newForm = new Element("form",{
+    "action" : link,
+    "target" : "_blank",
+    "method" : "post"
+   });
+   newForm.setStyle("width:0px;height:0px;font-size:0px;line-height:0;overflow:hidden;display:inline;margin:0;padding:0;");
+   el.insert(newForm);
+   newForm.submit();
+   newForm.remove();
+  });
+ });
+ }
+
+ if($('comm-property-master')) {
+  var propList = $('comm-property-master').select(".proplist").first();
+  var propUnit = propList.select("li");
+  propUnit.each(function(el){
+   el.observe("click", function(){
+    el.stopPropagation();
+    var link = el.select("a").first().href;
+    var newForm = new Element("form",{
+     "action" : link,
+     "target" : "_blank",
+     "method" : "post"
+    });
+    newForm.setStyle("width:0px;height:0px;font-size:0px;line-height:0;overflow:hidden;display:inline;margin:0;padding:0;");
+    el.insert(newForm);
+    newForm.submit();
+    newForm.remove();
+   });
+  });
+ }
+       $("jinpu_ad_loading").src = 'http://ifx.jinpu.com/s?p=22&ci=11&f1=1';
+
+new anjuke.global.footer.CityList('show_city_list', 'city_list');
+</script><script type="text/javascript">
+    (function(w){
+        try{
+            var site = 'anjuke';
+            var st = new SiteTracker();
+            var CustomParams = null;
+            st.setSite(site);
+            st.setPage("Community_CommunityViewNewPage");
+            st.setPageName("Anjuke_View_Community");
+            st.setReferer(document.referrer);
+            st.setNGuid("aQQ_ajkguid");
+            st.setNUid("ajk_member_id");
+            if (typeof SojClientData != 'undefined' && typeof JSON != 'undefined'){
+                if (SojClientData != null){
+                    for (var i in SojClientData){
+                        CustomParams[i] = SojClientData[i];
+                    }
+                }
+            }
+            st.setCustomParam(JSON.stringify(CustomParams));
+            st.track();
+            SojClientData = null;
+        } catch(err){}
+    })(window);
+</script><script language="JavaScript" type="text/javascript">
+
+ //标记是否要加载广告
+ var show_ads = false;
+
+ //绑定页面加载后，加载广告
+ //document.observe("dom:loaded", function() {
+  check_show_ads();
+  if(show_ads){
+   new Ajax.Request("http://shanghai.anjuke.com/ajax/ad/show/?pagename=Community_CommunityView&cityid=11&region_id=0&subregion_id=0", {
+    method:"get",
+    onSuccess:function(data){
+     var result = eval('('+data.responseText+')');
+     var addid = '';
+     var adddata = '';
+     for(var id in result){
+      if(result[id] == null) result[id] = '';
+      if(result[id] == ''){
+       addid = id;
+      }
+      if($(id)){
+       $(id).innerHTML = result[id];
+      }else{
+       adddata = result[id];
+      }
+     }
+
+     if(addid != '' && adddata != ''){
+      //$(addid).innerHTML = adddata;
+     }
+    }
+   });
+  }
+ //});
+
+ //检测是否要请求广告
+ function check_show_ads(){
+  var ads = ["adanjuke_zoneid_005"];
+  ads.each(function(ad){
+   if($(ad)){
+    show_ads = true;
+   }
+  });
+ }
+</script>
+
+
+
+<!-- uma ad -->
+
+<!--  广告的迁移-->
+<script type="text/javascript">
+    function __zp_uma_direct(F){try{var o=(top.document?top:window);if(o.t){};}catch(e){var o=window;}if(!o.__zp_show_flag){o.__zp_show_flag= -1;o.__zp_sl_count=0;}window.__zp_send_track=function(C){if(C.constructor==String){C=C.split('\n');}if(!window.__zp_trackingList)window.__zp_trackingList=[];var H=window.__zp_trackingList;for(var i=0,j=C,k;k=j[i];i++){H.push(new Image());H[H.length-1].src=k.replace('[rnd]',Math.random());}};window.__zp_jsLoad=function(A){var r=document.createElement('script'),D=navigator.userAgent;if(typeof A.id!='undefined')r.id=A.id;r.setAttribute('type','text/javascript');r.setAttribute('src',A.url);r.setAttribute('charset','utf-8');document.getElementsByTagName('head')[0].appendChild(r);if(D.indexOf('MSIE')> -1){r.onreadystatechange=function(){if(this.readyState=='loaded'||this.readyState=='complete'){A.callback&&A.callback.apply(A);}};}else{r.onload=function(){A.callback&&A.callback.apply(A);};r.onerror=function(){A.callback&&A.callback.apply(A);}}};function n(e,f){var d=e.split('?'),g=(d[1]?d[1].split('&'):[]),c='';for(var i=0,j;j=g[i];i++){var k=j.substr(0,j.indexOf('='));if(k===f){c=j.replace(k+'=','');break;}}return c;};var B=F;if(!B)return;var I=B.match(/(http|https):\/\/([^\/]+)\//i)[0],G=B.match(/(http|https):\/\/([^\/]+)\//i)[1];if(!I)return;var v={w:n(B,'w'),h:n(B,'h'),adsid:n(B,'id'),src:I+'media/images/uma_sl_'+n(B,'w')+'x'+n(B,'h')+'_'+(o.__zp_sl_count%4+1)+'.jpg',delay:n(B,'delay'),sl:n(B,'sl')*1,cu:'http://www.chinauma.com',tw:1,pr:G};o.__zp_sl_count++;if(typeof o.__zp_cid_list=='undefined'){try{o.__zp_cid_list=[];}catch(e){}}function m(){if(o.__zp_show_flag== -1){o.__zp_show_flag=1;__zp_jsLoad({url:G+'://uma.gtags.net/s?id='+v.adsid+'&t=1&r='+encodeURIComponent(o.location)+'&cids='+(o.__zp_cid_list&&o.__zp_cid_list.join(','))+'&_='+Math.random(),callback:function(){o.__zp_show_flag= -1;}});return;}setTimeout(arguments.callee,30);};function __zp_sl_start(d){var k,f=document.getElementById('zp_script_'+d.adsid),l,j;if(!d.sl|| !f)return;window['__zp_sl_remove_'+d.adsid]=function(){clearTimeout(l);if(k){k.parentNode.removeChild(k);k=null;}};function c(){try{k=document.createElement('a');f.parentNode.insertBefore(k,f);k.style.cssText='font-size:0px;';k.innerHTML='<img src=\"'+d.src+'\" style=\"width:'+d.w+'px;height:'+d.h+'px;position:relative;border:0px;\">';if(d.cu)k.href=d.pr+'://ut.gtags.net/tms/sclk?s='+d.adsid+'&c=-1&url='+encodeURIComponent(d.cu);k.target=(d.tw==1?'_blank':'g');try{var g=(top.document?top:window);if(g.t){};}catch(e){var g=window;};j=new Image();j.src=d.pr+'://ut.gtags.net/imp/simp?s='+d.adsid+'&c=-1&n='+(g.__zp_cid_list?g.__zp_cid_list.length:0)+'&u='+encodeURIComponent(g.document.location)+'&ru='+encodeURIComponent(g.document.referrer)+'&r='+Math.random();}catch(e){};};l=setTimeout(c,d.delay*1000);};if(v.sl){__zp_sl_start(v);m();}else{m();}};
+
+        document.observe("dom:loaded", function() {
+        $("adanjuke_community_zoneid_01").style.display = '';
+        var ad_block = $("adanjuke_community_zoneid_01").select("script");
+        if(ad_block){
+            ad_block[0].setAttribute("id","zp_script_13");
+            __zp_uma_direct("http://mcc.chinauma.net/static/scripts/p.js?id=13&w=950&h=90&sl=1&delay=5");
+        }
+    });
+    </script>
+
+
+ <div style="position:absolute;right:0;z-index:9999;line-height:25px;background:#FFF;border:1px #CCC solid;padding:0 10px;color:#F00" id="trunk">
+       <strong>Cookie Version</strong><br />
+  <a href="http://www.anjuke.com/version/switch/?f1=beta">Beta</a> |
+  <a href="http://www.anjuke.com/version/switch/?f1=ga">GA</a>
+      </div>
+ <script type="text/javascript">
+  if($('trunk')){
+   $('trunk').setStyle("top:"+(window.pageYOffset+window.innerHeight-60)+"px");
+   Event.observe(window, "scroll", function(){
+    $('trunk').setStyle("top:"+(window.pageYOffset+window.innerHeight-60)+"px");
+   });
+  }
+ </script>
+<script>
+if (Math.floor(Math.random() * 100) == 1 ){ //抽样1%
+ var renderTime = new Date().getTime() - startTime;
+ if(renderTime < 10000 && renderTime > 0 ) _gaq.push(['_trackEvent', 'RenderTime', '', renderTime]);
+}
+</script>
+
+<script type="text/javascript">
+    <!--
+    var bd_cpro_rtid="nWDsnjb";
+    //-->
+</script>
+<script type="text/javascript" src="http://cpro.baidu.com/cpro/ui/rt.js"></script>
+<noscript>
+    <div style="display:none;">
+        <img height="0" width="0" style="border-style:none;" src="http://eclick.baidu.com/rt.jpg?t=noscript&rtid=nWDsnjb" />
+    </div>
+</noscript>
+
+<!-- GA CODE START -->
+<!-- GA CODE END -->
+<div style="display:none;">
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc5899c8768ebee272710c9c5f365a6d8' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+</body>
+</html>||Done||null##
