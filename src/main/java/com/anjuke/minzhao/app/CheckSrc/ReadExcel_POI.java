@@ -1,8 +1,7 @@
 package com.anjuke.minzhao.app.CheckSrc;
 import java.io.File;
 import java.io.FileInputStream;   
-import java.io.InputStream;   
-  
+import java.io.InputStream;    
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
@@ -20,7 +19,7 @@ public class ReadExcel_POI{
 	    Sheet sheet;
 	   // Workbook book;
 	    Cell cell1;
-	    double cellValue;
+	    int cellValue;
 		try{
 			File file = new File("E:/项目/[14863]SEO小区单页优化/BOOK.xls");
 			FileInputStream fint = new FileInputStream(file);
@@ -34,7 +33,7 @@ public class ReadExcel_POI{
 				Row row = sheet.getRow(j);   
         	//获取每一行的单元格 
 				cell1=row.getCell(i);
-				cellValue=cell1.getNumericCellValue();
+				cellValue=(int)cell1.getNumericCellValue();
 				
 				System.out.println(cellValue);
 				j++;
