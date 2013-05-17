@@ -57,7 +57,7 @@ public class GetSrc{
              }
  
 			if(srcCode.contains(test)){
-				System.out.println("1");
+				
 			}
 			else{
 				System.out.println("0");

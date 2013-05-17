@@ -44,16 +44,14 @@ public class CheckResource {
 	@Test
 	public void testCheckResources() {
 		i=2;
-		maxLine=800;
+		maxLine=1;
 		
 		try {
 			HSSFWorkbook wb = new HSSFWorkbook();
-			// 创建sheet页
 			HSSFSheet targetSheet = wb.createSheet("sheet2");
 			
 			HSSFRow targetRow = targetSheet.createRow(0);
 			HSSFCell cellID_String = targetRow.createCell(0);
-			//cellNum.setCellValue(true);
 			cellID_String.setCellValue("小区id");
 			HSSFCell cellBool = targetRow.createCell(1);
 			cellBool.setCellValue("T OR F");
@@ -73,13 +71,11 @@ public class CheckResource {
 				String uuu = "view-source:http://shanghai.anjuke.com/community/view/"+cellValue;
 				driver.get(uuu);
 				srcCode=driver.getText("html", "");
-			
-				//System.out.println(cellValue);
-				//System.out.println("1");
 				HSSFRow targetRow1 = targetSheet.createRow(j+1);
 				HSSFCell cellID = targetRow1.createCell(0);
 				cellID.setCellValue(cellValue);
 				HSSFCell cellResult = targetRow1.createCell(1);
+//				driver.assertContains(srcCode, test);
 				if(srcCode.contains(test)){
 					cellResult.setCellValue(true);
 				}
@@ -87,15 +83,15 @@ public class CheckResource {
 					cellResult.setCellValue(false);
 				}
 			}
-//			try{
-				FileOutputStream fileoutputstream = new FileOutputStream("d:\\target.xls");
+			try{
+				FileOutputStream fileoutputstream = new FileOutputStream("E:/项目/[14863]SEO小区单页优化/target.xls");
 				wb.write(fileoutputstream);
 				fileoutputstream.flush();
 				fileoutputstream.close();
-//			}
-//			catch (Exception e) {
-//				e.printStackTrace();
-//			}
+			}
+			catch (Exception e) {
+				e.printStackTrace();
+			}
 		
 		} 
 		catch (Exception e) {

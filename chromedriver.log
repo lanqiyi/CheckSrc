@@ -1,5 +1,5 @@
 [0.000][INFO]:      ChromeDriver 23.0.1240.0 D:\workspace\CheckSrc\target\classes\chromedriver.exe
-[1.111][FINE]:      Initializing session with capabilities {
+[0.799][FINE]:      Initializing session with capabilities {
    "browserName": "chrome",
    "chrome.switches": [ "--start-maximized" ],
    "chromeOptions": {
@@ -10,11 +10,11 @@
    "version": ""
 }
 
-[1.111][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors --start-maximized about:blank
-[1.612][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
-[1.625][FINE]:      Command received (/session/24909f4059cf33b9b4bcf06692ad086f)
-[1.625][FINE]:      Command finished (/session/24909f4059cf33b9b4bcf06692ad086f) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[0.815][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors --start-maximized about:blank
+[1.418][INFO]:      Connected to Chrome successfully. Version: 26.0.1410.64
+[1.465][FINE]:      Command received (/session/3fb6e27b746262ad07f37006b5d55e1b)
+[1.465][FINE]:      Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -37,617 +37,131 @@
    }
 }
 
-[1.640][FINE]:      Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
+[1.616][FINE]:      Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with params {
    "url": "http://www.anjuke.com/version/switch/?f1=2013_20_91"
 }
 
-[1.641][FINER]:     Waiting for all views to stop loading...
-[1.641][FINER]:     Done waiting for all views to stop loading
-[2.650][FINER]:     Waiting for all views to stop loading...
-[2.657][FINER]:     Done waiting for all views to stop loading
-[2.657][FINE]:      Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[1.616][FINER]:     Waiting for all views to stop loading...
+[1.616][FINER]:     Done waiting for all views to stop loading
+[2.074][FINER]:     Waiting for all views to stop loading...
+[2.082][FINER]:     Done waiting for all views to stop loading
+[2.082][FINE]:      Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": {
 
    }
 }
 
-[9.236][FINE]:      Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
+[9.733][FINE]:      Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with params {
    "url": "view-source:http://shanghai.anjuke.com/community/view/1"
 }
 
-[9.236][FINER]:     Waiting for all views to stop loading...
-[9.236][FINER]:     Done waiting for all views to stop loading
-[9.803][FINER]:     Waiting for all views to stop loading...
-[9.806][FINER]:     Done waiting for all views to stop loading
-[9.806][FINE]:      Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[9.733][FINER]:     Waiting for all views to stop loading...
+[9.734][FINER]:     Done waiting for all views to stop loading
+[12.890][FINER]:    Waiting for all views to stop loading...
+[12.891][FINER]:    Done waiting for all views to stop loading
+[12.891][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": {
 
    }
 }
 
-[9.874][FINE]:      Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[9.874][FINER]:     Waiting for all views to stop loading...
-[9.874][FINER]:     Done waiting for all views to stop loading
-[9.877][FINER]:     Waiting for all views to stop loading...
-[9.878][FINER]:     Done waiting for all views to stop loading
-[9.878][FINE]:      Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[12.895][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/url)
+[12.895][FINER]:    Waiting for all views to stop loading...
+[12.896][FINER]:    Done waiting for all views to stop loading
+[12.925][FINER]:    Waiting for all views to stop loading...
+[12.926][FINER]:    Done waiting for all views to stop loading
+[12.926][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": "http://shanghai.anjuke.com/community/view/1"
 }
 
-[9.885][FINE]:      Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
+[12.961][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/element) with params {
    "using": "xpath",
    "value": "html"
 }
 
-[9.885][FINER]:     Waiting for all views to stop loading...
-[9.885][FINER]:     Done waiting for all views to stop loading
-[9.900][FINER]:     Waiting for all views to stop loading...
-[9.900][FINER]:     Done waiting for all views to stop loading
-[9.900][FINE]:      Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[12.961][FINER]:    Waiting for all views to stop loading...
+[12.961][FINER]:    Done waiting for all views to stop loading
+[12.995][FINER]:    Waiting for all views to stop loading...
+[12.996][FINER]:    Done waiting for all views to stop loading
+[12.996][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/element) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1368596117097"
+      "ELEMENT": ":wdc:1368773978196"
    }
 }
 
-[9.904][FINE]:      Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596117097/text)
-[9.904][FINER]:     Waiting for all views to stop loading...
-[9.905][FINER]:     Done waiting for all views to stop loading
-[11.266][FINER]:    Waiting for all views to stop loading...
-[11.266][FINER]:    Done waiting for all views to stop loading
-[11.266][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596117097/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[13.022][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/element/:wdc:1368773978196/text)
+[13.022][FINER]:    Waiting for all views to stop loading...
+[13.022][FINER]:    Done waiting for all views to stop loading
+[14.337][FINER]:    Waiting for all views to stop loading...
+[14.337][FINER]:    Done waiting for all views to stop loading
+[14.337][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/element/:wdc:1368773978196/text) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
 }
 
-[11.297][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
+[14.416][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with params {
    "url": "view-source:http://shanghai.anjuke.com/community/view/2"
 }
 
-[11.297][FINER]:    Waiting for all views to stop loading...
-[11.297][FINER]:    Done waiting for all views to stop loading
-[11.843][FINER]:    Waiting for all views to stop loading...
-[11.846][FINER]:    Done waiting for all views to stop loading
-[11.847][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[14.416][FINER]:    Waiting for all views to stop loading...
+[14.416][FINER]:    Done waiting for all views to stop loading
+[17.061][FINER]:    Waiting for all views to stop loading...
+[17.066][FINER]:    Done waiting for all views to stop loading
+[17.066][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": {
 
    }
 }
 
-[11.850][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[11.850][FINER]:    Waiting for all views to stop loading...
-[11.850][FINER]:    Done waiting for all views to stop loading
-[11.858][FINER]:    Waiting for all views to stop loading...
-[11.859][FINER]:    Done waiting for all views to stop loading
-[11.859][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[17.067][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/url)
+[17.068][FINER]:    Waiting for all views to stop loading...
+[17.073][FINER]:    Done waiting for all views to stop loading
+[17.075][FINER]:    Waiting for all views to stop loading...
+[17.075][FINER]:    Done waiting for all views to stop loading
+[17.075][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/url) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": "http://shanghai.anjuke.com/community/view/2"
 }
 
-[11.862][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
+[17.079][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/element) with params {
    "using": "xpath",
    "value": "html"
 }
 
-[11.862][FINER]:    Waiting for all views to stop loading...
-[11.863][FINER]:    Done waiting for all views to stop loading
-[11.871][FINER]:    Waiting for all views to stop loading...
-[11.872][FINER]:    Done waiting for all views to stop loading
-[11.872][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[17.079][FINER]:    Waiting for all views to stop loading...
+[17.079][FINER]:    Done waiting for all views to stop loading
+[17.085][FINER]:    Waiting for all views to stop loading...
+[17.085][FINER]:    Done waiting for all views to stop loading
+[17.085][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/element) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": {
-      "ELEMENT": ":wdc:1368596119068"
+      "ELEMENT": ":wdc:1368773982286"
    }
 }
 
-[11.875][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596119068/text)
-[11.875][FINER]:    Waiting for all views to stop loading...
-[11.875][FINER]:    Done waiting for all views to stop loading
-[13.290][FINER]:    Waiting for all views to stop loading...
-[13.290][FINER]:    Done waiting for all views to stop loading
-[13.290][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596119068/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
+[17.088][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b/element/:wdc:1368773982286/text)
+[17.088][FINER]:    Waiting for all views to stop loading...
+[17.089][FINER]:    Done waiting for all views to stop loading
+[18.588][FINER]:    Waiting for all views to stop loading...
+[18.588][FINER]:    Done waiting for all views to stop loading
+[18.589][FINE]:     Command finished (/session/3fb6e27b746262ad07f37006b5d55e1b/element/:wdc:1368773982286/text) with response {
+   "sessionId": "3fb6e27b746262ad07f37006b5d55e1b",
    "status": 0,
    "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
 }
 
-[13.305][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/3"
-}
-
-[13.305][FINER]:    Waiting for all views to stop loading...
-[13.305][FINER]:    Done waiting for all views to stop loading
-[13.993][FINER]:    Waiting for all views to stop loading...
-[13.996][FINER]:    Done waiting for all views to stop loading
-[13.996][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[13.997][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[13.997][FINER]:    Waiting for all views to stop loading...
-[13.998][FINER]:    Done waiting for all views to stop loading
-[14.004][FINER]:    Waiting for all views to stop loading...
-[14.004][FINER]:    Done waiting for all views to stop loading
-[14.004][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/3"
-}
-
-[14.008][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[14.008][FINER]:    Waiting for all views to stop loading...
-[14.008][FINER]:    Done waiting for all views to stop loading
-[14.018][FINER]:    Waiting for all views to stop loading...
-[14.018][FINER]:    Done waiting for all views to stop loading
-[14.018][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596121215"
-   }
-}
-
-[14.021][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596121215/text)
-[14.021][FINER]:    Waiting for all views to stop loading...
-[14.021][FINER]:    Done waiting for all views to stop loading
-[15.178][FINER]:    Waiting for all views to stop loading...
-[15.178][FINER]:    Done waiting for all views to stop loading
-[15.178][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596121215/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[15.191][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/4"
-}
-
-[15.191][FINER]:    Waiting for all views to stop loading...
-[15.192][FINER]:    Done waiting for all views to stop loading
-[15.733][FINER]:    Waiting for all views to stop loading...
-[15.737][FINER]:    Done waiting for all views to stop loading
-[15.737][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[15.740][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[15.740][FINER]:    Waiting for all views to stop loading...
-[15.740][FINER]:    Done waiting for all views to stop loading
-[15.748][FINER]:    Waiting for all views to stop loading...
-[15.749][FINER]:    Done waiting for all views to stop loading
-[15.749][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/4"
-}
-
-[15.752][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[15.752][FINER]:    Waiting for all views to stop loading...
-[15.752][FINER]:    Done waiting for all views to stop loading
-[15.761][FINER]:    Waiting for all views to stop loading...
-[15.761][FINER]:    Done waiting for all views to stop loading
-[15.761][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596122958"
-   }
-}
-
-[15.764][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596122958/text)
-[15.764][FINER]:    Waiting for all views to stop loading...
-[15.765][FINER]:    Done waiting for all views to stop loading
-[16.965][FINER]:    Waiting for all views to stop loading...
-[16.966][FINER]:    Done waiting for all views to stop loading
-[16.966][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596122958/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[16.980][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/5"
-}
-
-[16.980][FINER]:    Waiting for all views to stop loading...
-[16.980][FINER]:    Done waiting for all views to stop loading
-[17.519][FINER]:    Waiting for all views to stop loading...
-[17.522][FINER]:    Done waiting for all views to stop loading
-[17.522][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[17.524][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[17.524][FINER]:    Waiting for all views to stop loading...
-[17.524][FINER]:    Done waiting for all views to stop loading
-[17.531][FINER]:    Waiting for all views to stop loading...
-[17.531][FINER]:    Done waiting for all views to stop loading
-[17.531][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/5"
-}
-
-[17.534][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[17.534][FINER]:    Waiting for all views to stop loading...
-[17.534][FINER]:    Done waiting for all views to stop loading
-[17.540][FINER]:    Waiting for all views to stop loading...
-[17.540][FINER]:    Done waiting for all views to stop loading
-[17.541][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596124737"
-   }
-}
-
-[17.542][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596124737/text)
-[17.542][FINER]:    Waiting for all views to stop loading...
-[17.542][FINER]:    Done waiting for all views to stop loading
-[18.627][FINER]:    Waiting for all views to stop loading...
-[18.627][FINER]:    Done waiting for all views to stop loading
-[18.627][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596124737/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[18.640][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/6"
-}
-
-[18.641][FINER]:    Waiting for all views to stop loading...
-[18.641][FINER]:    Done waiting for all views to stop loading
-[19.336][FINER]:    Waiting for all views to stop loading...
-[19.340][FINER]:    Done waiting for all views to stop loading
-[19.340][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[19.342][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[19.342][FINER]:    Waiting for all views to stop loading...
-[19.342][FINER]:    Done waiting for all views to stop loading
-[19.349][FINER]:    Waiting for all views to stop loading...
-[19.350][FINER]:    Done waiting for all views to stop loading
-[19.350][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/6"
-}
-
-[19.353][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[19.353][FINER]:    Waiting for all views to stop loading...
-[19.353][FINER]:    Done waiting for all views to stop loading
-[19.362][FINER]:    Waiting for all views to stop loading...
-[19.362][FINER]:    Done waiting for all views to stop loading
-[19.362][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596126558"
-   }
-}
-
-[19.364][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596126558/text)
-[19.364][FINER]:    Waiting for all views to stop loading...
-[19.364][FINER]:    Done waiting for all views to stop loading
-[20.608][FINER]:    Waiting for all views to stop loading...
-[20.608][FINER]:    Done waiting for all views to stop loading
-[20.609][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596126558/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[20.632][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/7"
-}
-
-[20.632][FINER]:    Waiting for all views to stop loading...
-[20.632][FINER]:    Done waiting for all views to stop loading
-[21.304][FINER]:    Waiting for all views to stop loading...
-[21.307][FINER]:    Done waiting for all views to stop loading
-[21.307][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[21.310][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[21.310][FINER]:    Waiting for all views to stop loading...
-[21.310][FINER]:    Done waiting for all views to stop loading
-[21.317][FINER]:    Waiting for all views to stop loading...
-[21.317][FINER]:    Done waiting for all views to stop loading
-[21.317][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/7"
-}
-
-[21.320][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[21.320][FINER]:    Waiting for all views to stop loading...
-[21.321][FINER]:    Done waiting for all views to stop loading
-[21.327][FINER]:    Waiting for all views to stop loading...
-[21.327][FINER]:    Done waiting for all views to stop loading
-[21.327][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596128524"
-   }
-}
-
-[21.330][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596128524/text)
-[21.330][FINER]:    Waiting for all views to stop loading...
-[21.331][FINER]:    Done waiting for all views to stop loading
-[22.349][FINER]:    Waiting for all views to stop loading...
-[22.350][FINER]:    Done waiting for all views to stop loading
-[22.350][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596128524/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[22.363][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/8"
-}
-
-[22.363][FINER]:    Waiting for all views to stop loading...
-[22.363][FINER]:    Done waiting for all views to stop loading
-[23.159][FINER]:    Waiting for all views to stop loading...
-[23.161][FINER]:    Done waiting for all views to stop loading
-[23.161][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[23.163][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[23.163][FINER]:    Waiting for all views to stop loading...
-[23.163][FINER]:    Done waiting for all views to stop loading
-[23.169][FINER]:    Waiting for all views to stop loading...
-[23.170][FINER]:    Done waiting for all views to stop loading
-[23.170][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/8"
-}
-
-[23.172][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[23.172][FINER]:    Waiting for all views to stop loading...
-[23.173][FINER]:    Done waiting for all views to stop loading
-[23.180][FINER]:    Waiting for all views to stop loading...
-[23.181][FINER]:    Done waiting for all views to stop loading
-[23.181][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596130378"
-   }
-}
-
-[23.183][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596130378/text)
-[23.183][FINER]:    Waiting for all views to stop loading...
-[23.183][FINER]:    Done waiting for all views to stop loading
-[24.250][FINER]:    Waiting for all views to stop loading...
-[24.250][FINER]:    Done waiting for all views to stop loading
-[24.250][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596130378/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[24.263][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/9"
-}
-
-[24.263][FINER]:    Waiting for all views to stop loading...
-[24.263][FINER]:    Done waiting for all views to stop loading
-[24.930][FINER]:    Waiting for all views to stop loading...
-[24.932][FINER]:    Done waiting for all views to stop loading
-[24.933][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[24.934][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[24.934][FINER]:    Waiting for all views to stop loading...
-[24.935][FINER]:    Done waiting for all views to stop loading
-[24.942][FINER]:    Waiting for all views to stop loading...
-[24.943][FINER]:    Done waiting for all views to stop loading
-[24.943][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/9"
-}
-
-[24.946][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[24.946][FINER]:    Waiting for all views to stop loading...
-[24.946][FINER]:    Done waiting for all views to stop loading
-[24.953][FINER]:    Waiting for all views to stop loading...
-[24.953][FINER]:    Done waiting for all views to stop loading
-[24.953][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596132150"
-   }
-}
-
-[24.955][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596132150/text)
-[24.955][FINER]:    Waiting for all views to stop loading...
-[24.955][FINER]:    Done waiting for all views to stop loading
-[25.973][FINER]:    Waiting for all views to stop loading...
-[25.974][FINER]:    Done waiting for all views to stop loading
-[25.974][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596132150/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[25.987][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/12"
-}
-
-[25.988][FINER]:    Waiting for all views to stop loading...
-[25.988][FINER]:    Done waiting for all views to stop loading
-[26.850][FINER]:    Waiting for all views to stop loading...
-[26.852][FINER]:    Done waiting for all views to stop loading
-[26.852][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[26.854][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[26.854][FINER]:    Waiting for all views to stop loading...
-[26.855][FINER]:    Done waiting for all views to stop loading
-[26.861][FINER]:    Waiting for all views to stop loading...
-[26.862][FINER]:    Done waiting for all views to stop loading
-[26.862][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/12"
-}
-
-[26.864][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[26.864][FINER]:    Waiting for all views to stop loading...
-[26.864][FINER]:    Done waiting for all views to stop loading
-[26.870][FINER]:    Waiting for all views to stop loading...
-[26.871][FINER]:    Done waiting for all views to stop loading
-[26.871][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596134067"
-   }
-}
-
-[26.872][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596134067/text)
-[26.872][FINER]:    Waiting for all views to stop loading...
-[26.873][FINER]:    Done waiting for all views to stop loading
-[27.987][FINER]:    Waiting for all views to stop loading...
-[27.987][FINER]:    Done waiting for all views to stop loading
-[27.987][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596134067/text) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "\u003C!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"\u003E\n\u003Chtml\u003E..."
-}
-
-[28.000][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url) with params {
-   "url": "view-source:http://shanghai.anjuke.com/community/view/13"
-}
-
-[28.000][FINER]:    Waiting for all views to stop loading...
-[28.001][FINER]:    Done waiting for all views to stop loading
-[28.566][FINER]:    Waiting for all views to stop loading...
-[28.568][FINER]:    Done waiting for all views to stop loading
-[28.568][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-
-   }
-}
-
-[28.571][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/url)
-[28.571][FINER]:    Waiting for all views to stop loading...
-[28.576][FINER]:    Done waiting for all views to stop loading
-[28.579][FINER]:    Waiting for all views to stop loading...
-[28.579][FINER]:    Done waiting for all views to stop loading
-[28.579][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/url) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": "http://shanghai.anjuke.com/community/view/13"
-}
-
-[28.582][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element) with params {
-   "using": "xpath",
-   "value": "html"
-}
-
-[28.582][FINER]:    Waiting for all views to stop loading...
-[28.582][FINER]:    Done waiting for all views to stop loading
-[28.589][FINER]:    Waiting for all views to stop loading...
-[28.589][FINER]:    Done waiting for all views to stop loading
-[28.589][FINE]:     Command finished (/session/24909f4059cf33b9b4bcf06692ad086f/element) with response {
-   "sessionId": "24909f4059cf33b9b4bcf06692ad086f",
-   "status": 0,
-   "value": {
-      "ELEMENT": ":wdc:1368596135787"
-   }
-}
-
-[28.592][FINE]:     Command received (/session/24909f4059cf33b9b4bcf06692ad086f/element/:wdc:1368596135787/text)
-[28.592][FINER]:    Waiting for all views to stop loading...
-[28.592][FINER]:    Done waiting for all views to stop loading
-[29.266][FINER]:    Waiting for all views to stop loading...
+[18.662][FINE]:     Command received (/session/3fb6e27b746262ad07f37006b5d55e1b)
+[19.153][INFO]:     Chrome shutdown
